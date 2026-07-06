@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 304 | 29 |
+| 305 | 29 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (2)
+- [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (45)
 - [bitmasks](#bitmasks) (18)
 - [brute force](#brute-force) (62)
@@ -50,6 +50,7 @@
 |---|---------|------------|----------|
 | 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
+| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 
 ### binary search
 
