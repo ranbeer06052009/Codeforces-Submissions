@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 302 | 28 |
+| 303 | 29 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (45)
 - [bitmasks](#bitmasks) (18)
 - [brute force](#brute-force) (62)
@@ -42,6 +43,12 @@
 - [two pointers](#two-pointers) (34)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
 
 ### binary search
 
