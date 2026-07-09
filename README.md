@@ -6,24 +6,33 @@
 
 | Total Problems | Topics |
 |---|---|
-| 9 | 10 |
+| 10 | 13 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [brute force](#brute-force) (1)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (2)
+- [data structures](#data-structures) (1)
 - [dp](#dp) (2)
 - [greedy](#greedy) (3)
-- [implementation](#implementation) (2)
+- [implementation](#implementation) (3)
 - [math](#math) (3)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (2)
 - [strings](#strings) (3)
+- [trees](#trees) (1)
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 
 ### combinatorics
 
@@ -37,6 +46,12 @@
 |---|---------|------------|----------|
 | 1312B | [Bogosort](https://codeforces.com/contest/1312/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/B%20-%20Bogosort/solution.cpp) |
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 
 ### dp
 
@@ -58,6 +73,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
+| 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1851D | [Prefix Permutation Sums](https://codeforces.com/contest/1851/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1851/D%20-%20Prefix%20Permutation%20Sums/solution.cpp) |
 
 ### math
@@ -88,6 +104,12 @@
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
+
+### trees
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 
 ### two pointers
 
