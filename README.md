@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 17 | 15 |
+| 18 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (2)
 - [combinatorics](#combinatorics) (1)
@@ -29,6 +30,12 @@
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
 
 ### bitmasks
 
