@@ -6,13 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 40 | 18 |
+| 41 | 19 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (5)
+- [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (3)
@@ -23,9 +24,9 @@
 - [games](#games) (3)
 - [greedy](#greedy) (14)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (4)
-- [math](#math) (17)
-- [number theory](#number-theory) (8)
+- [implementation](#implementation) (5)
+- [math](#math) (18)
+- [number theory](#number-theory) (9)
 - [sortings](#sortings) (7)
 - [strings](#strings) (3)
 - [trees](#trees) (1)
@@ -42,6 +43,12 @@
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
 | 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 
 ### bitmasks
 
@@ -147,6 +154,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1851D | [Prefix Permutation Sums](https://codeforces.com/contest/1851/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1851/D%20-%20Prefix%20Permutation%20Sums/solution.cpp) |
@@ -156,6 +164,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.cpp) |
@@ -179,6 +188,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 26A | [Almost Prime](https://codeforces.com/contest/26/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/26/A%20-%20Almost%20Prime/solution.cpp) |
+| 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
