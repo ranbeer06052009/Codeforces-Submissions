@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 48 | 19 |
+| 49 | 19 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (6)
 - [games](#games) (4)
-- [greedy](#greedy) (18)
+- [greedy](#greedy) (19)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (6)
 - [math](#math) (22)
@@ -153,6 +153,7 @@
 | 2239A | [Nim Game Is XOR Game](https://codeforces.com/contest/2239/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2239/A%20-%20Nim%20Game%20Is%20XOR%20Game/solution.cpp) |
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
 
 ### hashing
 
