@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 54 | 19 |
+| 55 | 19 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (5)
+- [Uncategorized](#uncategorized) (6)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (9)
@@ -38,6 +38,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1649D | [Integral Array](https://codeforces.com/contest/1649/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1649/D%20-%20Integral%20Array/solution.cpp) |
 | 2245A | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2245/A%20-%20Who%20Watches%20the%20Watchpig%3F/solution.cpp) |
 | 2245B | [Delete and Concatenate](https://codeforces.com/contest/2245/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2245/B%20-%20Delete%20and%20Concatenate/solution.cpp) |
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2245/C%20-%20MEXOR/solution.cpp) |
