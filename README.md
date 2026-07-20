@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 56 | 19 |
+| 57 | 19 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [Uncategorized](#uncategorized) (6)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (10)
+- [brute force](#brute-force) (11)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (13)
 - [data structures](#data-structures) (4)
@@ -25,8 +25,8 @@
 - [greedy](#greedy) (20)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (7)
-- [math](#math) (25)
-- [number theory](#number-theory) (12)
+- [math](#math) (26)
+- [number theory](#number-theory) (13)
 - [sortings](#sortings) (9)
 - [strings](#strings) (3)
 - [trees](#trees) (1)
@@ -62,6 +62,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 633A | [Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/633/A%20-%20Ebony%20and%20Ivory/solution.cpp) |
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
@@ -184,6 +185,7 @@
 |---|---------|------------|----------|
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
+| 633A | [Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/633/A%20-%20Ebony%20and%20Ivory/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.cpp) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.cpp) |
@@ -215,6 +217,7 @@
 | 26A | [Almost Prime](https://codeforces.com/contest/26/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/26/A%20-%20Almost%20Prime/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
+| 633A | [Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/633/A%20-%20Ebony%20and%20Ivory/solution.cpp) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.cpp) |
 | 1487B | [Cat Cycle](https://codeforces.com/contest/1487/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1487/B%20-%20Cat%20Cycle/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
