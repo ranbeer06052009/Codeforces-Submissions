@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 63 | 20 |
+| 64 | 21 |
 
 ---
 
@@ -23,10 +23,11 @@
 - [dp](#dp) (6)
 - [dsu](#dsu) (1)
 - [games](#games) (4)
-- [greedy](#greedy) (23)
+- [geometry](#geometry) (1)
+- [greedy](#greedy) (24)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (7)
-- [math](#math) (29)
+- [math](#math) (30)
 - [number theory](#number-theory) (16)
 - [sortings](#sortings) (10)
 - [strings](#strings) (4)
@@ -150,6 +151,12 @@
 | 1627B | [Not Sitting](https://codeforces.com/contest/1627/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1627/B%20-%20Not%20Sitting/solution.cpp) |
 | 2239A | [Nim Game Is XOR Game](https://codeforces.com/contest/2239/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2239/A%20-%20Nim%20Game%20Is%20XOR%20Game/solution.cpp) |
 
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -169,6 +176,7 @@
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
+| 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.cpp) |
 | 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
 | 2225B | [Alternating String](https://codeforces.com/contest/2225/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2225/B%20-%20Alternating%20String/solution.cpp) |
@@ -219,6 +227,7 @@
 | 1762C | [Binary Strings are Fun](https://codeforces.com/contest/1762/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1762/C%20-%20Binary%20Strings%20are%20Fun/solution.cpp) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
+| 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1814/A%20-%20Coins/solution.cpp) |
 | 1851D | [Prefix Permutation Sums](https://codeforces.com/contest/1851/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1851/D%20-%20Prefix%20Permutation%20Sums/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
