@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 71 | 21 |
+| 72 | 21 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (16)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (17)
+- [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (7)
@@ -27,9 +27,9 @@
 - [greedy](#greedy) (26)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (9)
-- [math](#math) (36)
+- [math](#math) (37)
 - [number theory](#number-theory) (17)
-- [sortings](#sortings) (10)
+- [sortings](#sortings) (11)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (1)
@@ -107,6 +107,7 @@
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.cpp) |
 | 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 2147B | [Multiple Construction](https://codeforces.com/contest/2147/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2147/B%20-%20Multiple%20Construction/solution.cpp) |
 | 2239A | [Nim Game Is XOR Game](https://codeforces.com/contest/2239/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2239/A%20-%20Nim%20Game%20Is%20XOR%20Game/solution.cpp) |
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
@@ -241,6 +242,7 @@
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
 | 1762C | [Binary Strings are Fun](https://codeforces.com/contest/1762/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1762/C%20-%20Binary%20Strings%20are%20Fun/solution.cpp) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1789C | [Serval and Toxel's Arrays](https://codeforces.com/contest/1789/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/C%20-%20Serval%20and%20Toxel's%20Arrays/solution.cpp) |
@@ -290,6 +292,7 @@
 | 1539C | [Stable Groups](https://codeforces.com/contest/1539/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1539/C%20-%20Stable%20Groups/solution.cpp) |
 | 1627B | [Not Sitting](https://codeforces.com/contest/1627/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1627/B%20-%20Not%20Sitting/solution.cpp) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.cpp) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.cpp) |
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
