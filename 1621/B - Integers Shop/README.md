@@ -1,0 +1,27 @@
+<h2><a href="https://codeforces.com/contest/1621/problem/B" target="_blank" rel="noopener noreferrer">1621B — Integers Shop</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1500 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1621B](https://codeforces.com/contest/1621/problem/B) |
+
+## Topics
+`data structures` `greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Integers Shop</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>The integers shop sells $$$n$$$ segments. The $$$i$$$-th of them contains all integers from $$$l_i$$$ to $$$r_i$$$ and costs $$$c_i$$$ coins.</p><p>Tomorrow Vasya will go to this shop and will buy some segments there. He will get all integers that appear in at least one of bought segments. The total cost of the purchase is the sum of costs of all segments in it.</p><p>After shopping, Vasya will get some more integers as a gift. He will get integer $$$x$$$ as a gift if and only if all of the following conditions are satisfied: </p><ul> <li> Vasya hasn't bought $$$x$$$. </li><li> Vasya has bought integer $$$l$$$ that is less than $$$x$$$. </li><li> Vasya has bought integer $$$r$$$ that is greater than $$$x$$$. </li></ul><p>Vasya can get integer $$$x$$$ as a gift only once so he won't have the same integers after receiving a gift.</p><p>For example, if Vasya buys segment $$$[2, 4]$$$ for $$$20$$$ coins and segment $$$[7, 8]$$$ for $$$22$$$ coins, he spends $$$42$$$ coins and receives integers $$$2, 3, 4, 7, 8$$$ from these segments. He also gets integers $$$5$$$ and $$$6$$$ as a gift.</p><p>Due to the technical issues only the first $$$s$$$ segments (that is, segments $$$[l_1, r_1], [l_2, r_2], \ldots, [l_s, r_s]$$$) will be available tomorrow in the shop.</p><p>Vasya wants to get (to buy or to get as a gift) as many integers as possible. If he can do this in differents ways, he selects the cheapest of them.</p><p>For each $$$s$$$ from $$$1$$$ to $$$n$$$, find how many coins will Vasya spend if only the first $$$s$$$ segments will be available.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 1000$$$) — the number of test cases.</p><p>The first line of each test case contains the single integer $$$n$$$ ($$$1 \leq n \leq 10^5$$$) — the number of segments in the shop.</p><p>Each of next $$$n$$$ lines contains three integers $$$l_i$$$, $$$r_i$$$, $$$c_i$$$ ($$$1 \leq l_i \leq r_i \leq 10^9, 1 \leq c_i \leq 10^9$$$) — the ends of the $$$i$$$-th segments and its cost.</p><p>It is guaranteed that the total sum of $$$n$$$ over all test cases doesn't exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case output $$$n$$$ integers: the $$$s$$$-th ($$$1 \leq s \leq n$$$) of them should be the number of coins Vasia will spend in the shop if only the first $$$s$$$ segments will be available.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0038677237027978706" id="id005593174397421535" class="input-output-copier">Copy</div></div><pre id="id0038677237027978706"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-odd test-example-line-1">2 4 20</div><div class="test-example-line test-example-line-odd test-example-line-1">7 8 22</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-even test-example-line-2">5 11 42</div><div class="test-example-line test-example-line-even test-example-line-2">5 11 42</div><div class="test-example-line test-example-line-odd test-example-line-3">6</div><div class="test-example-line test-example-line-odd test-example-line-3">1 4 4</div><div class="test-example-line test-example-line-odd test-example-line-3">5 8 9</div><div class="test-example-line test-example-line-odd test-example-line-3">7 8 7</div><div class="test-example-line test-example-line-odd test-example-line-3">2 10 252</div><div class="test-example-line test-example-line-odd test-example-line-3">1 11 271</div><div class="test-example-line test-example-line-odd test-example-line-3">1 10 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00972144426338613" id="id006622598234892063" class="input-output-copier">Copy</div></div><pre id="id00972144426338613">20
+42
+42
+42
+4
+13
+11
+256
+271
+271
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case if $$$s = 1$$$ then Vasya can buy only the segment $$$[2, 4]$$$ for $$$20$$$ coins and get $$$3$$$ integers.</p><p>The way to get $$$7$$$ integers for $$$42$$$ coins in case $$$s = 2$$$ is described in the statement.</p><p>In the second test case note, that there can be the same segments in the shop.</p></div>
