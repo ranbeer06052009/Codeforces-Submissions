@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 80 | 21 |
+| 81 | 21 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (6)
+- [Uncategorized](#uncategorized) (7)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (18)
@@ -40,6 +40,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1011E | [Border](https://codeforces.com/contest/1011/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1011/E%20-%20Border/solution.cpp) |
 | 1649D | [Integral Array](https://codeforces.com/contest/1649/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1649/D%20-%20Integral%20Array/solution.cpp) |
 | 2245A | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2245/A%20-%20Who%20Watches%20the%20Watchpig%3F/solution.cpp) |
 | 2245B | [Delete and Concatenate](https://codeforces.com/contest/2245/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2245/B%20-%20Delete%20and%20Concatenate/solution.cpp) |
