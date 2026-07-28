@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 94 | 22 |
+| 95 | 22 |
 
 ---
 
@@ -21,15 +21,15 @@
 - [constructive algorithms](#constructive-algorithms) (24)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (8)
+- [dp](#dp) (9)
 - [dsu](#dsu) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (33)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (15)
-- [math](#math) (48)
-- [number theory](#number-theory) (22)
+- [math](#math) (49)
+- [number theory](#number-theory) (23)
 - [sortings](#sortings) (11)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
@@ -168,6 +168,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
+| 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
@@ -285,6 +286,7 @@
 | 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
+| 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1667A | [Make it Increasing](https://codeforces.com/contest/1667/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1667/A%20-%20Make%20it%20Increasing/solution.cpp) |
@@ -331,6 +333,7 @@
 | 1487B | [Cat Cycle](https://codeforces.com/contest/1487/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1487/B%20-%20Cat%20Cycle/solution.cpp) |
 | 1500B | [Two chandeliers](https://codeforces.com/contest/1500/problem/B) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1500/B%20-%20Two%20chandeliers/solution.cpp) |
 | 1514C | [Product 1 Modulo N](https://codeforces.com/contest/1514/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1514/C%20-%20Product%201%20Modulo%20N/solution.cpp) |
+| 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
