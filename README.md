@@ -6,26 +6,26 @@
 
 | Total Problems | Topics |
 |---|---|
-| 97 | 22 |
+| 98 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (10)
-- [binary search](#binary-search) (4)
+- [binary search](#binary-search) (5)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (21)
 - [chinese remainder theorem](#chinese-remainder-theorem) (2)
 - [combinatorics](#combinatorics) (6)
 - [constructive algorithms](#constructive-algorithms) (24)
-- [data structures](#data-structures) (6)
+- [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (9)
+- [dp](#dp) (10)
 - [dsu](#dsu) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (34)
+- [greedy](#greedy) (35)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (15)
 - [math](#math) (50)
@@ -33,7 +33,7 @@
 - [sortings](#sortings) (11)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
-- [two pointers](#two-pointers) (2)
+- [two pointers](#two-pointers) (3)
 
 ---
 
@@ -60,6 +60,7 @@
 | 1500B | [Two chandeliers](https://codeforces.com/contest/1500/problem/B) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1500/B%20-%20Two%20chandeliers/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
+| 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 
 ### bitmasks
 
@@ -155,6 +156,7 @@
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1621B | [Integers Shop](https://codeforces.com/contest/1621/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1621/B%20-%20Integers%20Shop/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
+| 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 
 ### dfs and similar
 
@@ -174,6 +176,7 @@
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
 | 1789C | [Serval and Toxel's Arrays](https://codeforces.com/contest/1789/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/C%20-%20Serval%20and%20Toxel's%20Arrays/solution.cpp) |
+| 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
@@ -229,6 +232,7 @@
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 1898B | [Milena and Admirer](https://codeforces.com/contest/1898/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1898/B%20-%20Milena%20and%20Admirer/solution.cpp) |
+| 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 2190A | [Sorting Game](https://codeforces.com/contest/2190/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2190/A%20-%20Sorting%20Game/solution.cpp) |
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.cpp) |
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.cpp) |
@@ -388,6 +392,7 @@
 |---|---------|------------|----------|
 | 1610B | [Kalindrome Array](https://codeforces.com/contest/1610/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1610/B%20-%20Kalindrome%20Array/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
+| 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 
 ---
 
