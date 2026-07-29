@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 100 | 22 |
+| 101 | 23 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (10)
-- [binary search](#binary-search) (5)
+- [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (23)
 - [chinese remainder theorem](#chinese-remainder-theorem) (2)
@@ -25,11 +25,12 @@
 - [dsu](#dsu) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (35)
+- [greedy](#greedy) (36)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (17)
-- [math](#math) (52)
-- [number theory](#number-theory) (26)
+- [math](#math) (53)
+- [matrices](#matrices) (1)
+- [number theory](#number-theory) (27)
 - [sortings](#sortings) (11)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
@@ -57,6 +58,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 337C | [Quiz](https://codeforces.com/contest/337/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/337/C%20-%20Quiz/solution.cpp) |
 | 1500B | [Two chandeliers](https://codeforces.com/contest/1500/problem/B) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1500/B%20-%20Two%20chandeliers/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
@@ -212,6 +214,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 337C | [Quiz](https://codeforces.com/contest/337/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/337/C%20-%20Quiz/solution.cpp) |
 | 1154G | [Minimum Possible LCM](https://codeforces.com/contest/1154/problem/G) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1154/G%20-%20Minimum%20Possible%20LCM/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
@@ -282,6 +285,7 @@
 |---|---------|------------|----------|
 | 217B | [Blackboard Fibonacci](https://codeforces.com/contest/217/problem/B) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/217/B%20-%20Blackboard%20Fibonacci/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 337C | [Quiz](https://codeforces.com/contest/337/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/337/C%20-%20Quiz/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 633A | [Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/633/A%20-%20Ebony%20and%20Ivory/solution.cpp) |
 | 1154B | [Make Them Equal](https://codeforces.com/contest/1154/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1154/B%20-%20Make%20Them%20Equal/solution.cpp) |
@@ -333,12 +337,19 @@
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
 
+### matrices
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 337C | [Quiz](https://codeforces.com/contest/337/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/337/C%20-%20Quiz/solution.cpp) |
+
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 26A | [Almost Prime](https://codeforces.com/contest/26/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/26/A%20-%20Almost%20Prime/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 337C | [Quiz](https://codeforces.com/contest/337/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/337/C%20-%20Quiz/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 633A | [Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/633/A%20-%20Ebony%20and%20Ivory/solution.cpp) |
 | 1154G | [Minimum Possible LCM](https://codeforces.com/contest/1154/problem/G) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1154/G%20-%20Minimum%20Possible%20LCM/solution.cpp) |
