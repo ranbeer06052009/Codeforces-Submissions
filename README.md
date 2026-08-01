@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 114 | 24 |
+| 115 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (11)
+- [Uncategorized](#uncategorized) (12)
 - [binary search](#binary-search) (7)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (23)
@@ -51,6 +51,7 @@
 | 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
 | 2248A | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2248/A%20-%20You%20Delete%2C%20I%20Delete/solution.cpp) |
+| 2248B | [Merge to Match](https://codeforces.com/contest/2248/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2248/B%20-%20Merge%20to%20Match/solution.cpp) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 | 2250B | [String Construction](https://codeforces.com/contest/2250/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2250/B%20-%20String%20Construction/solution.cpp) |
 | 2250C | [Rank Subsequence](https://codeforces.com/contest/2250/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2250/C%20-%20Rank%20Subsequence/solution.cpp) |
