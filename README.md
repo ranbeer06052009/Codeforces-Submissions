@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 116 | 24 |
+| 117 | 24 |
 
 ---
 
@@ -29,9 +29,9 @@
 - [greedy](#greedy) (43)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (18)
-- [math](#math) (59)
+- [math](#math) (60)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (31)
+- [number theory](#number-theory) (32)
 - [sortings](#sortings) (14)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
@@ -317,6 +317,7 @@
 | 338D | [GCD Table](https://codeforces.com/contest/338/problem/D) | 2900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/338/D%20-%20GCD%20Table/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 633A | [Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/633/A%20-%20Ebony%20and%20Ivory/solution.cpp) |
+| 762A | [k-th divisor](https://codeforces.com/contest/762/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/762/A%20-%20k-th%20divisor/solution.cpp) |
 | 1154B | [Make Them Equal](https://codeforces.com/contest/1154/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1154/B%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1154G | [Minimum Possible LCM](https://codeforces.com/contest/1154/problem/G) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1154/G%20-%20Minimum%20Possible%20LCM/solution.cpp) |
 | 1245A | [Good ol' Numbers Coloring](https://codeforces.com/contest/1245/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1245/A%20-%20Good%20ol'%20Numbers%20Coloring/solution.cpp) |
@@ -387,6 +388,7 @@
 | 338D | [GCD Table](https://codeforces.com/contest/338/problem/D) | 2900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/338/D%20-%20GCD%20Table/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 633A | [Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/633/A%20-%20Ebony%20and%20Ivory/solution.cpp) |
+| 762A | [k-th divisor](https://codeforces.com/contest/762/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/762/A%20-%20k-th%20divisor/solution.cpp) |
 | 1154G | [Minimum Possible LCM](https://codeforces.com/contest/1154/problem/G) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1154/G%20-%20Minimum%20Possible%20LCM/solution.cpp) |
 | 1245A | [Good ol' Numbers Coloring](https://codeforces.com/contest/1245/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1245/A%20-%20Good%20ol'%20Numbers%20Coloring/solution.cpp) |
 | 1260C | [Infinite Fence](https://codeforces.com/contest/1260/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1260/C%20-%20Infinite%20Fence/solution.cpp) |
