@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 122 | 24 |
+| 123 | 25 |
 
 ---
 
@@ -29,9 +29,10 @@
 - [greedy](#greedy) (44)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (20)
-- [math](#math) (63)
+- [math](#math) (64)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (34)
+- [probabilities](#probabilities) (1)
 - [sortings](#sortings) (15)
 - [strings](#strings) (4)
 - [trees](#trees) (1)
@@ -319,6 +320,7 @@
 |---|---------|------------|----------|
 | 217B | [Blackboard Fibonacci](https://codeforces.com/contest/217/problem/B) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/217/B%20-%20Blackboard%20Fibonacci/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 312B | [Archer](https://codeforces.com/contest/312/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/312/B%20-%20Archer/solution.cpp) |
 | 337C | [Quiz](https://codeforces.com/contest/337/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/337/C%20-%20Quiz/solution.cpp) |
 | 338D | [GCD Table](https://codeforces.com/contest/338/problem/D) | 2900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/338/D%20-%20GCD%20Table/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
@@ -425,6 +427,12 @@
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+
+### probabilities
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 312B | [Archer](https://codeforces.com/contest/312/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/312/B%20-%20Archer/solution.cpp) |
 
 ### sortings
 
