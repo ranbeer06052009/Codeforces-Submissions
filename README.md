@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 126 | 26 |
+| 127 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [*special](#special) (1)
 - [Uncategorized](#uncategorized) (13)
 - [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (6)
@@ -40,6 +41,12 @@
 - [two pointers](#two-pointers) (7)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2214H | [Double Vision](https://codeforces.com/contest/2214/problem/H) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/H%20-%20Double%20Vision/solution.cpp) |
 
 ### Uncategorized
 
