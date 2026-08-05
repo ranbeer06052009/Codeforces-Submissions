@@ -6,19 +6,20 @@
 
 | Total Problems | Topics |
 |---|---|
-| 135 | 28 |
+| 136 | 29 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (5)
+- [*special](#special) (6)
 - [Uncategorized](#uncategorized) (17)
 - [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (24)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (7)
+- [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (25)
 - [data structures](#data-structures) (11)
 - [dfs and similar](#dfs-and-similar) (3)
@@ -51,6 +52,7 @@
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2214F | [Numbers](https://codeforces.com/contest/2214/problem/F) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/F%20-%20Numbers/solution.txt) |
+| 2214G | [Anomaly](https://codeforces.com/contest/2214/problem/G) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/G%20-%20Anomaly/solution.cpp) |
 | 2214H | [Double Vision](https://codeforces.com/contest/2214/problem/H) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/H%20-%20Double%20Vision/solution.cpp) |
 
 ### Uncategorized
@@ -147,6 +149,12 @@
 | 1789C | [Serval and Toxel's Arrays](https://codeforces.com/contest/1789/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/C%20-%20Serval%20and%20Toxel's%20Arrays/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 | 2246C | [0mar and Alternating Sums](https://codeforces.com/contest/2246/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2246/C%20-%200mar%20and%20Alternating%20Sums/solution.cpp) |
+
+### communication
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2214G | [Anomaly](https://codeforces.com/contest/2214/problem/G) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/G%20-%20Anomaly/solution.cpp) |
 
 ### constructive algorithms
 
