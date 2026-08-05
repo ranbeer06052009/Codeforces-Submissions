@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 134 | 28 |
+| 135 | 28 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (4)
+- [*special](#special) (5)
 - [Uncategorized](#uncategorized) (17)
 - [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (6)
@@ -37,7 +37,7 @@
 - [number theory](#number-theory) (35)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (16)
-- [strings](#strings) (5)
+- [strings](#strings) (6)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (7)
 
@@ -49,6 +49,7 @@
 |---|---------|------------|----------|
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.txt) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
+| 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2214F | [Numbers](https://codeforces.com/contest/2214/problem/F) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/F%20-%20Numbers/solution.txt) |
 | 2214H | [Double Vision](https://codeforces.com/contest/2214/problem/H) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/H%20-%20Double%20Vision/solution.cpp) |
 
@@ -498,6 +499,7 @@
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.cpp) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
+| 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 
 ### trees
