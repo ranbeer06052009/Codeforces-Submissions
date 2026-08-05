@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 131 | 27 |
+| 132 | 28 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (1)
+- [*special](#special) (2)
 - [Uncategorized](#uncategorized) (17)
 - [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (6)
@@ -28,9 +28,10 @@
 - [flows](#flows) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (2)
+- [graph matchings](#graph-matchings) (1)
 - [greedy](#greedy) (46)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (20)
+- [implementation](#implementation) (21)
 - [math](#math) (66)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (35)
@@ -46,6 +47,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.txt) |
 | 2214H | [Double Vision](https://codeforces.com/contest/2214/problem/H) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/H%20-%20Double%20Vision/solution.cpp) |
 
 ### Uncategorized
@@ -253,6 +255,12 @@
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 
+### graph matchings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.txt) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -334,6 +342,7 @@
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.cpp) |
+| 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.txt) |
 
 ### math
 
