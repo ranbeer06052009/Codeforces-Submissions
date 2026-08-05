@@ -1,18 +1,1 @@
-<h2><a href="https://codeforces.com/contest/2214/problem/B" target="_blank" rel="noopener noreferrer">2214B — Are You Smiling?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | Unrated |
-| **Language** | PyPy 3-64 |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2214B](https://codeforces.com/contest/2214/problem/B) |
-
-## Topics
-`*special` `strings`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">B. Are You Smiling?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Show us a smile! 😁</p></div><div class="output-specification"><div class="section-title">Output</div><p>For a properly chosen $$$\mathrm{?}$$$, the following equation holds: $$$\mathrm{U} + \mathrm{?} = \mathrm{HAPPY}$$$.</p><p>Output $$$\mathrm{?}$$$, a string consisting of uppercase letters and numbers. </p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008724416869203835" id="id0037835060197006276" class="input-output-copier">Copy</div></div><pre id="id008724416869203835">show us your smile!
-</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009491611827177171" id="id004265339730859913" class="input-output-copier">Copy</div></div><pre id="id009491611827177171">     </pre></div></div></div>
+print("1F601")
