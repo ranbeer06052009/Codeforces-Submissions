@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 133 | 28 |
+| 134 | 28 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (3)
+- [*special](#special) (4)
 - [Uncategorized](#uncategorized) (17)
 - [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (6)
@@ -49,6 +49,7 @@
 |---|---------|------------|----------|
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.txt) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
+| 2214F | [Numbers](https://codeforces.com/contest/2214/problem/F) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/F%20-%20Numbers/solution.txt) |
 | 2214H | [Double Vision](https://codeforces.com/contest/2214/problem/H) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/H%20-%20Double%20Vision/solution.cpp) |
 
 ### Uncategorized
