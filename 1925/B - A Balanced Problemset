@@ -1,20 +1,215 @@
-<h2><a href="https://codeforces.com/contest/1925/problem/B" target="_blank" rel="noopener noreferrer">1925B — A Balanced Problemset?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 1200 |
-| **Language** | C++23 (GCC 14-64, msys2) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1925B](https://codeforces.com/contest/1925/problem/B) |
-
-## Topics
-`brute force` `greedy` `math` `number theory`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">B. A Balanced Problemset?</div><div class="time-limit"><div class="property-title">time limit per test</div>1.5 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Jay managed to create a problem of difficulty $$$x$$$ and decided to make it the second problem for Codeforces Round #921. </p><p>But Yash fears that this problem will make the contest highly unbalanced, and the coordinator will reject it. So, he decided to break it up into a problemset of $$$n$$$ sub-problems such that the difficulties of all the sub-problems are a positive integer and their sum is equal to $$$x$$$. </p><p>The coordinator, Aleksey, defines the balance of a problemset as the <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">GCD</a> of the difficulties of all sub-problems in the problemset. </p><p>Find the maximum balance that Yash can achieve if he chooses the difficulties of the sub-problems optimally.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of input contains a single integer $$$t$$$ ($$$1\leq t\leq 10^3$$$) denoting the number of test cases.</p><p>Each test case contains a single line of input containing two integers $$$x$$$ ($$$1\leq x\leq 10^8$$$) and $$$n$$$ ($$$1\leq n\leq x$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing a single integer denoting the maximum balance of the problemset Yash can achieve.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007986939542577536" id="id003365066636175943" class="input-output-copier">Copy</div></div><pre id="id007986939542577536"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">10 3</div><div class="test-example-line test-example-line-even test-example-line-2">5 5</div><div class="test-example-line test-example-line-odd test-example-line-3">420 69</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00040639390222441896" id="id0022830863845074556" class="input-output-copier">Copy</div></div><pre id="id00040639390222441896">2
-1
-6
-</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the first test case, one possible way is to break up the problem of difficulty $$$10$$$ into a problemset having three problems of difficulties $$$4$$$, $$$2$$$ and $$$4$$$ respectively, giving a balance equal to $$$2$$$.</p><p>For the second test case, there is only one way to break up the problem of difficulty $$$5$$$ into a problemset of $$$5$$$ problems with each problem having a difficulty $$$1$$$ giving a balance equal to $$$1$$$.</p></div>
+#pragma GCC optimize("Ofast,unroll-loops")
+#include <bits/allocator.h>
+#pragma GCC target("avx2")
+#include <bits/stdc++.h>
+using namespace std;
+#define fastio() ios_base::sync_with_stdio(false); cin.tie(NULL);cout.tie(NULL)
+// Captain levi Ackerman:
+ /*"The only thing we're allowed to do is believe that we won't regret the choice we made."
+ "The world doesn’t care about your pain — only your will to rise again."
+ " Sometimme to find the way you must loose yourself in the grind"
+ " No matter what kind of wisdom dictates the option you should pick No one will be able to tell if it's right or wrong until you arrive at some sort of outcome"*/
+ 
+// Eren yeager:
+/*"If you win, you live. If you lose, you die. If you don't fight, you can't win! So Fight ! Just Fight!"
+"You'll Never Know. If You're Not The One Who's Continuing To Take That Path... Unless You Keep Moving Forward."*/
+ 
+// Commander Erwin Smith :
+/*"If you begin to regret, you’ll dull your future decisions and let others make your choices for you. Nobody can foretell the outcome. Each decision you make holds meaning only by affecting your next decision."*/
+ 
+ 
+/* ---------------- pbds (order statistics tree) ---------------- */
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+ 
+template <class T, class Cmp = std::less<T>>
+using ordered_set =
+    tree<T, null_type, Cmp, rb_tree_tag, tree_order_statistics_node_update>;
+ 
+template <class T, class Cmp = std::less_equal<T>>
+using ordered_multiset =
+    tree<T, null_type, Cmp, rb_tree_tag, tree_order_statistics_node_update>;
+ 
+/* ---------------- aliases ---------------- */
+using ll = long long;
+using ull = unsigned long long;
+using ld = long double;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi = vector<int>;
+using vll = vector<ll>;
+using vvi = vector<vi>;
+using vvll = vector<vll>;
+using vs = vector<string>;
+using vpii = vector<pii>;
+using vpll = vector<pll>;
+using mii = map<int, int>;
+using mll = map<ll, ll>;
+ 
+constexpr ll MOD = 1000000007;
+ 
+/* ---------------- handy macros & helpers ---------------- */
+#define all(x) begin(x), end(x)
+#define rall(x) rbegin(x), rend(x)
+#define ls(u) (u << 1)
+#define rs(u) (u << 1 | 1)
+#define rep(i, a, b) for (ll i = a; i <= b; i++)
+#define rrep(i, a, b) for (ll i = a; i >= b; i--)
+#define F first
+#define S second
+ 
+/* ---------------- Number Theory ---------------- */
+ll extGCD(ll a, ll b, ll &x, ll &y) {
+    if (b == 0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    ll x1, y1;
+    ll d = extGCD(b, a % b, x1, y1);
+    x = y1;
+    y = x1 - y1 * (a / b);
+    return d;
+}
+bool find_any_solution(ll a, ll b, ll c, ll &x0, ll &y0, ll &g) {
+    g= extGCD(abs(a), abs(b), x0, y0);
+    if (c%g!= 0) {
+        return false;
+    }
+ 
+    x0*=c/g;
+    y0*=c/g;
+    if(a<0)x0= -x0;
+    if(b<0)y0= -y0;
+    return true;
+}
+ 
+vll sieve(int n) {
+    vll primes;
+    vector<bool> isPrime(n + 1, true);
+    isPrime[0] = isPrime[1] = false;
+    for (int i = 2; i <= n; ++i) {
+        if (isPrime[i]) {
+            primes.push_back(i);
+            for (int j = i * 2; j <= n; j += i) isPrime[j] = false;
+        }
+    }
+    return primes;
+}
+ 
+vector<pair<ll, ll>> primeFactors(ll n) {
+    vector<pair<ll, ll>> factors;
+    for (ll i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            ll count = 0;
+            while (n % i == 0) {
+                n /= i;
+                count++;
+            }
+            factors.emplace_back(i, count);
+        }
+    }
+    if (n > 1) {
+        factors.emplace_back(n, 1);
+    }
+    return factors;
+}
+ 
+ll phi(ll n) {
+    ll result = n;
+    for (ll i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            while (n % i == 0) {
+                n /= i;
+            }
+            result -= result / i;
+        }
+    }
+    if (n > 1) {
+        result -= result / n;
+    }
+    return result;
+}
+void swap(ll &a, ll &b){
+    ll temp=a;
+    a=b;
+    b=temp;
+}
+ll gcd(ll a, ll b) {
+    while(b) { 
+        a %= b; 
+        swap(a, b); 
+    } 
+    return a; 
+}
+ 
+ll lcm(ll a, ll b) { 
+    if (a == 0 || b == 0) return 0;
+    return (a / gcd(a, b)) * b; 
+}
+ll nCr(int n, int r) {
+    if(r< 0||r> n) return 0;
+    if(r== 0 || r == n) return 1;
+    if(r > n / 2) r = n - r;
+    ll ans = 1;
+    for (int i = 1; i <= r; i++) {
+        ans =ans*(n-i+1)/i;
+    }
+    return ans;
+}
+ll crt(ll r1, ll m1, ll r2, ll m2){
+    ll x,y;
+    ll g=extGCD(m1,m2,x,y);
+    if((r2-r1)%g!=0)return -1;
+    ll m=m1/g*m2;
+    ll temp=r1+x*((r2-r1)/g)%(m2/g)*m1;
+    ll t=(temp%m+m)%m;
+    return t;
+} 
+// Computes Legendre's formula: number of times prime p divides x!
+ll multiplicityP(ll x, ll p){
+    ll count = 0;
+    while(x > 0){
+        count += x / p;
+        x /= p;
+    }
+    return count;
+}
+ 
+/* Bitwise */
+ll msb(ll n) { return n ? 63 - __builtin_clzll(n) : -1; }
+ 
+ll bitPos(ll val, ll pos) { return ((1ll << pos) & val) > 0; }
+ 
+/* ------------- main solve function ------------- */
+ 
+void solve(){
+    int x,n;
+    cin >> x >> n;
+    int ans = 1;
+    for(int i=1;i*i<=x;i++)
+    {
+        if(x%i==0)
+        {
+            if(n<=x/i)
+                ans=max(ans,i);
+            if(n<=i)
+                ans=max(ans,x/i);
+        }
+    }
+    cout << ans;
+    return;
+}
+ 
+int main(){
+    fastio();
+    int tt = 1;
+    cin >> tt;
+    while (tt--){
+        solve();
+        cout <<"
+";
+    }
+    return 0;
+}
