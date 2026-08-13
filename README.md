@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 165 | 30 |
+| 166 | 30 |
 
 ---
 
@@ -30,10 +30,10 @@
 - [games](#games) (6)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
-- [greedy](#greedy) (58)
+- [greedy](#greedy) (59)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (26)
-- [math](#math) (73)
+- [math](#math) (74)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (38)
 - [probabilities](#probabilities) (1)
@@ -321,6 +321,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
+| 1338A | [Powered Addition](https://codeforces.com/contest/1338/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1338/A%20-%20Powered%20Addition/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
 | 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
@@ -428,6 +429,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
+| 1338A | [Powered Addition](https://codeforces.com/contest/1338/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1338/A%20-%20Powered%20Addition/solution.cpp) |
 | 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
