@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 164 | 29 |
+| 165 | 30 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (27)
 - [binary search](#binary-search) (9)
-- [bitmasks](#bitmasks) (7)
+- [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (27)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (8)
@@ -30,15 +30,16 @@
 - [games](#games) (6)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
-- [greedy](#greedy) (57)
+- [greedy](#greedy) (58)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (25)
-- [math](#math) (72)
+- [implementation](#implementation) (26)
+- [math](#math) (73)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (37)
+- [number theory](#number-theory) (38)
 - [probabilities](#probabilities) (1)
 - [sortings](#sortings) (22)
 - [strings](#strings) (9)
+- [ternary search](#ternary-search) (1)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (9)
 
@@ -105,6 +106,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
 | 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
@@ -317,6 +319,7 @@
 | 1260C | [Infinite Fence](https://codeforces.com/contest/1260/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1260/C%20-%20Infinite%20Fence/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
 | 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
@@ -382,6 +385,7 @@
 | 1203C | [Common Divisors](https://codeforces.com/contest/1203/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1203/C%20-%20Common%20Divisors/solution.cpp) |
 | 1215B | [The Number of Products](https://codeforces.com/contest/1215/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1215/B%20-%20The%20Number%20of%20Products/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
+| 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
 | 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.cpp) |
@@ -422,6 +426,7 @@
 | 1285A | [Mezo Playing Zoma](https://codeforces.com/contest/1285/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1285/A%20-%20Mezo%20Playing%20Zoma/solution.cpp) |
 | 1285C | [Fadi and LCM](https://codeforces.com/contest/1285/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1285/C%20-%20Fadi%20and%20LCM/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
@@ -499,6 +504,7 @@
 | 1260C | [Infinite Fence](https://codeforces.com/contest/1260/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1260/C%20-%20Infinite%20Fence/solution.cpp) |
 | 1285C | [Fadi and LCM](https://codeforces.com/contest/1285/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1285/C%20-%20Fadi%20and%20LCM/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.cpp) |
@@ -571,6 +577,12 @@
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
+
+### ternary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 
 ### trees
 
