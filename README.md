@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 167 | 30 |
+| 168 | 30 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (6)
-- [Uncategorized](#uncategorized) (27)
+- [Uncategorized](#uncategorized) (28)
 - [binary search](#binary-search) (9)
 - [bitmasks](#bitmasks) (9)
 - [brute force](#brute-force) (27)
@@ -61,6 +61,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1011E | [Border](https://codeforces.com/contest/1011/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1011/E%20-%20Border/solution.cpp) |
+| 1077C | [Good Array](https://codeforces.com/contest/1077/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1077/C%20-%20Good%20Array/solution.cpp) |
 | 1649D | [Integral Array](https://codeforces.com/contest/1649/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1649/D%20-%20Integral%20Array/solution.cpp) |
 | 1925C | [Did We Get Everything Covered?](https://codeforces.com/contest/1925/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/C%20-%20Did%20We%20Get%20Everything%20Covered%3F/solution.cpp) |
 | 2245A | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2245/A%20-%20Who%20Watches%20the%20Watchpig%3F/solution.cpp) |
