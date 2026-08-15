@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 168 | 30 |
+| 169 | 30 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [combinatorics](#combinatorics) (8)
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (27)
-- [data structures](#data-structures) (16)
+- [data structures](#data-structures) (17)
 - [dfs and similar](#dfs-and-similar) (3)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (22)
@@ -30,14 +30,14 @@
 - [games](#games) (6)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
-- [greedy](#greedy) (60)
+- [greedy](#greedy) (61)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (26)
 - [math](#math) (75)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (38)
 - [probabilities](#probabilities) (1)
-- [sortings](#sortings) (22)
+- [sortings](#sortings) (23)
 - [strings](#strings) (9)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (1)
@@ -214,6 +214,7 @@
 |---|---------|------------|----------|
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 808B | [Average Sleep Time](https://codeforces.com/contest/808/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/808/B%20-%20Average%20Sleep%20Time/solution.cpp) |
+| 845C | [Two TVs](https://codeforces.com/contest/845/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/845/C%20-%20Two%20TVs/solution.cpp) |
 | 1237B | [Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1237/B%20-%20Balanced%20Tunnel/solution.cpp) |
 | 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
@@ -313,6 +314,7 @@
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 337C | [Quiz](https://codeforces.com/contest/337/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/337/C%20-%20Quiz/solution.cpp) |
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
+| 845C | [Two TVs](https://codeforces.com/contest/845/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/845/C%20-%20Two%20TVs/solution.cpp) |
 | 1110B | [Tape](https://codeforces.com/contest/1110/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1110/B%20-%20Tape/solution.cpp) |
 | 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1154G | [Minimum Possible LCM](https://codeforces.com/contest/1154/problem/G) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1154/G%20-%20Minimum%20Possible%20LCM/solution.cpp) |
@@ -548,6 +550,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
+| 845C | [Two TVs](https://codeforces.com/contest/845/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/845/C%20-%20Two%20TVs/solution.cpp) |
 | 1110B | [Tape](https://codeforces.com/contest/1110/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1110/B%20-%20Tape/solution.cpp) |
 | 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
