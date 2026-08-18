@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 171 | 30 |
+| 172 | 30 |
 
 ---
 
@@ -37,7 +37,7 @@
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (38)
 - [probabilities](#probabilities) (1)
-- [sortings](#sortings) (23)
+- [sortings](#sortings) (24)
 - [strings](#strings) (9)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (2)
@@ -557,6 +557,7 @@
 |---|---------|------------|----------|
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 845C | [Two TVs](https://codeforces.com/contest/845/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/845/C%20-%20Two%20TVs/solution.cpp) |
+| 1101C | [Division and Union](https://codeforces.com/contest/1101/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1101/C%20-%20Division%20and%20Union/solution.cpp) |
 | 1110B | [Tape](https://codeforces.com/contest/1110/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1110/B%20-%20Tape/solution.cpp) |
 | 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
