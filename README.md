@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 174 | 30 |
+| 175 | 30 |
 
 ---
 
@@ -24,16 +24,16 @@
 - [data structures](#data-structures) (18)
 - [dfs and similar](#dfs-and-similar) (5)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (23)
+- [dp](#dp) (24)
 - [dsu](#dsu) (2)
 - [flows](#flows) (1)
-- [games](#games) (6)
+- [games](#games) (7)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [greedy](#greedy) (63)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (29)
-- [math](#math) (75)
+- [math](#math) (76)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (38)
 - [probabilities](#probabilities) (1)
@@ -254,6 +254,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 87C | [Interesting Game](https://codeforces.com/contest/87/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/87/C%20-%20Interesting%20Game/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
 | 1084C | [The Fair Nut and String](https://codeforces.com/contest/1084/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1084/C%20-%20The%20Fair%20Nut%20and%20String/solution.cpp) |
@@ -295,6 +296,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 87C | [Interesting Game](https://codeforces.com/contest/87/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/87/C%20-%20Interesting%20Game/solution.cpp) |
 | 1373B | [01 Game](https://codeforces.com/contest/1373/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1373/B%20-%2001%20Game/solution.cpp) |
 | 1527B1 | [Palindrome Game (easy version)](https://codeforces.com/contest/1527/problem/B1) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1527/B1%20-%20Palindrome%20Game%20(easy%20version)/solution.cpp) |
 | 1627B | [Not Sitting](https://codeforces.com/contest/1627/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1627/B%20-%20Not%20Sitting/solution.cpp) |
@@ -427,6 +429,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 87C | [Interesting Game](https://codeforces.com/contest/87/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/87/C%20-%20Interesting%20Game/solution.cpp) |
 | 217B | [Blackboard Fibonacci](https://codeforces.com/contest/217/problem/B) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/217/B%20-%20Blackboard%20Fibonacci/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 312B | [Archer](https://codeforces.com/contest/312/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/312/B%20-%20Archer/solution.cpp) |
