@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 176 | 30 |
+| 177 | 30 |
 
 ---
 
@@ -36,7 +36,7 @@
 - [math](#math) (77)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (39)
-- [probabilities](#probabilities) (1)
+- [probabilities](#probabilities) (2)
 - [sortings](#sortings) (24)
 - [strings](#strings) (10)
 - [ternary search](#ternary-search) (1)
@@ -565,6 +565,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 312B | [Archer](https://codeforces.com/contest/312/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/312/B%20-%20Archer/solution.cpp) |
+| 453A | [Little Pony and Expected Maximum](https://codeforces.com/contest/453/problem/A) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/453/A%20-%20Little%20Pony%20and%20Expected%20Maximum/solution.cpp) |
 
 ### sortings
 
