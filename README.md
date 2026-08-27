@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 180 | 32 |
+| 181 | 32 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (28)
 - [binary search](#binary-search) (10)
-- [bitmasks](#bitmasks) (9)
+- [bitmasks](#bitmasks) (10)
 - [brute force](#brute-force) (29)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (10)
@@ -34,7 +34,7 @@
 - [greedy](#greedy) (66)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (29)
-- [math](#math) (78)
+- [math](#math) (79)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (40)
 - [probabilities](#probabilities) (2)
@@ -117,6 +117,7 @@
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.cpp) |
 | 1748D | [ConstructOR ](https://codeforces.com/contest/1748/problem/D) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1748/D%20-%20ConstructOR%20/solution.cpp) |
+| 1775C | [Interesting Sequence](https://codeforces.com/contest/1775/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1775/C%20-%20Interesting%20Sequence/solution.cpp) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.cpp) |
 | 2247D1 | [XOR Sorting (Easy Version)](https://codeforces.com/contest/2247/problem/D1) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2247/D1%20-%20XOR%20Sorting%20(Easy%20Version)/solution.cpp) |
 
@@ -500,6 +501,7 @@
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
 | 1748D | [ConstructOR ](https://codeforces.com/contest/1748/problem/D) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1748/D%20-%20ConstructOR%20/solution.cpp) |
 | 1762C | [Binary Strings are Fun](https://codeforces.com/contest/1762/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1762/C%20-%20Binary%20Strings%20are%20Fun/solution.cpp) |
+| 1775C | [Interesting Sequence](https://codeforces.com/contest/1775/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1775/C%20-%20Interesting%20Sequence/solution.cpp) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.cpp) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
