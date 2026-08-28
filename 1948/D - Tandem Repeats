@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1948/problem/D" target="_blank" rel="noopener noreferrer">1948D — Tandem Repeats?</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1700 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1948D](https://codeforces.com/contest/1948/problem/D) |
+
+## Topics
+`brute force` `strings` `two pointers`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Tandem Repeats?</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a string $$$s$$$, consisting of lowercase Latin letters and/or question marks.</p><p>A <span class="tex-font-style-it">tandem repeat</span> is a string of an even length such that its first half is equal to its second half.</p><p>A string $$$a$$$ is a substring of a string $$$b$$$ if $$$a$$$ can be obtained from $$$b$$$ by the deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.</p><p>Your goal is to replace each question mark with some lowercase Latin letter in such a way that the length of the longest substring that is a tandem repeat is maximum possible.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of testcases.</p><p>The only line of each testcase contains a string $$$s$$$ ($$$1 \le |s| \le 5000$$$), consisting only of lowercase Latin letters and/or question marks.</p><p>The total length of the strings over all testcases doesn't exceed $$$5000$$$. </p></div><div class="output-specification"><div class="section-title">Output</div><p>For each testcase, print a single integer — the maximum length of the longest substring that is a tandem repeat after you replace each question mark in the string with some lowercase Latin letter.</p><p>If it's impossible to make any tandem repeat substrings in the string, print $$$0$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009156664228518356" id="id00011146956407578568" class="input-output-copier">Copy</div></div><pre id="id009156664228518356"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">zaabaabz</div><div class="test-example-line test-example-line-even test-example-line-2">?????</div><div class="test-example-line test-example-line-odd test-example-line-3">code?????s</div><div class="test-example-line test-example-line-even test-example-line-4">codeforces</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0044543446911575" id="id008664773802503004" class="input-output-copier">Copy</div></div><pre id="id0044543446911575">6
+4
+10
+0
+</pre></div></div></div>
