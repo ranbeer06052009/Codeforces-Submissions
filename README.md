@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 181 | 32 |
+| 182 | 32 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (28)
 - [binary search](#binary-search) (10)
 - [bitmasks](#bitmasks) (10)
-- [brute force](#brute-force) (29)
+- [brute force](#brute-force) (30)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (10)
 - [communication](#communication) (1)
@@ -40,10 +40,10 @@
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (25)
-- [strings](#strings) (10)
+- [strings](#strings) (11)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (2)
-- [two pointers](#two-pointers) (10)
+- [two pointers](#two-pointers) (11)
 
 ---
 
@@ -149,6 +149,7 @@
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
+| 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |
 | 1982B | [Collatz Conjecture](https://codeforces.com/contest/1982/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/B%20-%20Collatz%20Conjecture/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
@@ -633,6 +634,7 @@
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.cpp) |
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.cpp) |
 | 1925A | [We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/A%20-%20We%20Got%20Everything%20Covered!/solution.cpp) |
+| 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
@@ -663,6 +665,7 @@
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
+| 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 
 ---
