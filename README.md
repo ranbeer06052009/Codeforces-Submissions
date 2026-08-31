@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 183 | 32 |
+| 184 | 32 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [data structures](#data-structures) (20)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (26)
+- [dp](#dp) (27)
 - [dsu](#dsu) (2)
 - [flows](#flows) (1)
 - [games](#games) (7)
@@ -34,10 +34,10 @@
 - [greedy](#greedy) (66)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (29)
-- [math](#math) (79)
+- [math](#math) (80)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (40)
-- [probabilities](#probabilities) (2)
+- [probabilities](#probabilities) (3)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (25)
 - [strings](#strings) (11)
@@ -277,6 +277,7 @@
 | 1420C1 | [Pokémon Army (easy version)](https://codeforces.com/contest/1420/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C1%20-%20Pok%C3%A9mon%20Army%20(easy%20version)/solution.cpp) |
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
 | 1420E | [Battle Lemmings](https://codeforces.com/contest/1420/problem/E) | 2500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/E%20-%20Battle%20Lemmings/solution.cpp) |
+| 1461C | [Random Events](https://codeforces.com/contest/1461/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1461/C%20-%20Random%20Events/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
@@ -483,6 +484,7 @@
 | 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.cpp) |
 | 1421A | [XORwice](https://codeforces.com/contest/1421/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1421/A%20-%20XORwice/solution.cpp) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.cpp) |
+| 1461C | [Random Events](https://codeforces.com/contest/1461/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1461/C%20-%20Random%20Events/solution.cpp) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.cpp) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.cpp) |
 | 1477A | [Nezzar and Board](https://codeforces.com/contest/1477/problem/A) | 1800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1477/A%20-%20Nezzar%20and%20Board/solution.cpp) |
@@ -587,6 +589,7 @@
 |---|---------|------------|----------|
 | 312B | [Archer](https://codeforces.com/contest/312/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/312/B%20-%20Archer/solution.cpp) |
 | 453A | [Little Pony and Expected Maximum](https://codeforces.com/contest/453/problem/A) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/453/A%20-%20Little%20Pony%20and%20Expected%20Maximum/solution.cpp) |
+| 1461C | [Random Events](https://codeforces.com/contest/1461/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1461/C%20-%20Random%20Events/solution.cpp) |
 
 ### shortest paths
 
