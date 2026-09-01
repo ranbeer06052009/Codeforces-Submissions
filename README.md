@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 185 | 32 |
+| 186 | 32 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (10)
 - [brute force](#brute-force) (30)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
-- [combinatorics](#combinatorics) (11)
+- [combinatorics](#combinatorics) (12)
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (28)
 - [data structures](#data-structures) (20)
@@ -34,7 +34,7 @@
 - [greedy](#greedy) (66)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (29)
-- [math](#math) (81)
+- [math](#math) (82)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (40)
 - [probabilities](#probabilities) (4)
@@ -168,6 +168,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 57C | [Array](https://codeforces.com/contest/57/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/57/C%20-%20Array/solution.cpp) |
 | 518D | [Ilya and Escalator](https://codeforces.com/contest/518/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/518/D%20-%20Ilya%20and%20Escalator/solution.cpp) |
 | 1084C | [The Fair Nut and String](https://codeforces.com/contest/1084/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1084/C%20-%20The%20Fair%20Nut%20and%20String/solution.cpp) |
 | 1215B | [The Number of Products](https://codeforces.com/contest/1215/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1215/B%20-%20The%20Number%20of%20Products/solution.cpp) |
@@ -453,6 +454,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 57C | [Array](https://codeforces.com/contest/57/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/57/C%20-%20Array/solution.cpp) |
 | 87C | [Interesting Game](https://codeforces.com/contest/87/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/87/C%20-%20Interesting%20Game/solution.cpp) |
 | 217B | [Blackboard Fibonacci](https://codeforces.com/contest/217/problem/B) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/217/B%20-%20Blackboard%20Fibonacci/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
