@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 186 | 32 |
+| 187 | 32 |
 
 ---
 
@@ -21,10 +21,10 @@
 - [combinatorics](#combinatorics) (12)
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (28)
-- [data structures](#data-structures) (20)
+- [data structures](#data-structures) (21)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (28)
+- [dp](#dp) (29)
 - [dsu](#dsu) (2)
 - [flows](#flows) (1)
 - [games](#games) (7)
@@ -32,11 +32,11 @@
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (66)
-- [hashing](#hashing) (1)
+- [hashing](#hashing) (2)
 - [implementation](#implementation) (29)
 - [math](#math) (82)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (40)
+- [number theory](#number-theory) (41)
 - [probabilities](#probabilities) (4)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (25)
@@ -238,6 +238,7 @@
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
+| 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
 | 1621B | [Integers Shop](https://codeforces.com/contest/1621/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1621/B%20-%20Integers%20Shop/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
@@ -283,6 +284,7 @@
 | 1461C | [Random Events](https://codeforces.com/contest/1461/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1461/C%20-%20Random%20Events/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
+| 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
@@ -415,6 +417,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
+| 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
 
 ### implementation
 
@@ -571,6 +574,7 @@
 | 1500B | [Two chandeliers](https://codeforces.com/contest/1500/problem/B) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1500/B%20-%20Two%20chandeliers/solution.cpp) |
 | 1514C | [Product 1 Modulo N](https://codeforces.com/contest/1514/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1514/C%20-%20Product%201%20Modulo%20N/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
+| 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
