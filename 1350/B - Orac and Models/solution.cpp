@@ -60,6 +60,9 @@ constexpr ll MOD = 998244353;
 #define S second
  
 /* ---------------- Number Theory ---------------- */
+const int MAX = 200005;
+ll fact[MAX], invFact[MAX];
+ 
 ll power(ll base, ll exp) {
     ll res = 1;
     base %= MOD;
@@ -70,8 +73,28 @@ ll power(ll base, ll exp) {
     }
     return res;
 }
+ 
 ll modInverse(ll n) {
     return power(n, MOD - 2);
+}
+ 
+// Precomputes factorials in O(N)
+void precompute() {
+    fact[0] = 1;
+    invFact[0] = 1;
+    for (int i = 1; i < MAX; i++) {
+        fact[i] = (fact[i - 1] * i) % MOD;
+    }
+    invFact[MAX - 1] = modInverse(fact[MAX - 1]);
+    for (int i = MAX - 2; i >= 1; i--) {
+        invFact[i] = (invFact[i + 1] * (i + 1)) % MOD;
+    }
+}
+ 
+// O(1) combinations calculation
+ll nCr(int n, int r) {
+    if (r < 0 || r > n) return 0;
+    return fact[n] * invFact[r] % MOD * invFact[n - r] % MOD;
 }
 ll extGCD(ll a, ll b, ll &x, ll &y) {
     if (b == 0) {
@@ -161,17 +184,6 @@ ll lcm(ll a, ll b) {
     if (a == 0 || b == 0) return 0;
     return (a / gcd(a, b)) * b; 
 }
-ll nCr(int n, int r) {
-    if (r < 0 || r > n) return 0;
-    if (r == 0 || r == n) return 1;
-    
-    ll num = 1, den = 1;
-    for (int i = 0; i < r; i++) {
-        num = (num * (n - i)) % MOD;
-        den = (den * (i + 1)) % MOD;
-    }
-    return (num * modInverse(den)) % MOD;
-}
 ll crt(ll r1, ll m1, ll r2, ll m2){
     ll x,y;
     ll g=extGCD(m1,m2,x,y);
@@ -201,25 +213,32 @@ ll bitPos(ll val, ll pos) { return ((1ll << pos) & val) > 0; }
 void solve(){
     int n;
     cin>>n;
-    vll a(n+1,0);
-    rep(i,1,n)cin>>a[i];
-    int dp[n+1];
-    rep(i,0,n)dp[i]=1;
-    rep(i,2,n){
-        for(int j=1; j*j<=i; j++){
+    vi a(n+1,0);
+    for(int i=1; i<=n; i++){
+        cin>>a[i];
+    }
+    vector<int>dp(n+1,1);
+    for(int i=1; i<=n; i++){
+        for(int j=1; j*j<=i;j++){
             if(i%j!=0)continue;
-            if(a[j]<a[i])dp[i]=max(dp[i],dp[j]+1);
+            if(a[j]<a[i]){
+                dp[i]=max(dp[i],dp[j]+1);
+            }
             int k=i/j;
-            if(a[k]<a[i])dp[i]=max(dp[i],dp[k]+1);
+            if(a[k]<a[i]){
+                dp[i]=max(dp[i],dp[k]+1);
+            }
         }
     }
-    cout<<*max_element(dp,dp+n+1);
+    cout<<*max_element(dp.begin(),dp.end());
     return;
 }
  
 int main(){
     fastio();
     int tt = 1;
+    //pre();
+    // precompute();
     cin >> tt;
     while (tt--){
         solve();
