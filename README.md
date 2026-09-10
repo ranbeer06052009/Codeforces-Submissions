@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 195 | 33 |
+| 196 | 33 |
 
 ---
 
@@ -14,11 +14,11 @@
 
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (31)
-- [binary search](#binary-search) (11)
+- [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (11)
-- [brute force](#brute-force) (32)
+- [brute force](#brute-force) (33)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
-- [combinatorics](#combinatorics) (12)
+- [combinatorics](#combinatorics) (13)
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (31)
 - [data structures](#data-structures) (21)
@@ -35,9 +35,9 @@
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (30)
 - [interactive](#interactive) (1)
-- [math](#math) (85)
+- [math](#math) (86)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (44)
+- [number theory](#number-theory) (45)
 - [probabilities](#probabilities) (4)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (25)
@@ -110,6 +110,7 @@
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
+| 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 
 ### bitmasks
 
@@ -160,6 +161,7 @@
 | 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |
 | 1982B | [Collatz Conjecture](https://codeforces.com/contest/1982/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/B%20-%20Collatz%20Conjecture/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
+| 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2225B | [Alternating String](https://codeforces.com/contest/2225/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2225/B%20-%20Alternating%20String/solution.cpp) |
@@ -186,6 +188,7 @@
 | 1748D | [ConstructOR ](https://codeforces.com/contest/1748/problem/D) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1748/D%20-%20ConstructOR%20/solution.cpp) |
 | 1762C | [Binary Strings are Fun](https://codeforces.com/contest/1762/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1762/C%20-%20Binary%20Strings%20are%20Fun/solution.cpp) |
 | 1789C | [Serval and Toxel's Arrays](https://codeforces.com/contest/1789/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/C%20-%20Serval%20and%20Toxel's%20Arrays/solution.cpp) |
+| 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 | 2246C | [0mar and Alternating Sums](https://codeforces.com/contest/2246/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2246/C%20-%200mar%20and%20Alternating%20Sums/solution.cpp) |
 
@@ -552,6 +555,7 @@
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 1982B | [Collatz Conjecture](https://codeforces.com/contest/1982/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/B%20-%20Collatz%20Conjecture/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
+| 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 | 2124C | [Subset Multiplication](https://codeforces.com/contest/2124/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2124/C%20-%20Subset%20Multiplication/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
@@ -613,6 +617,7 @@
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 1982B | [Collatz Conjecture](https://codeforces.com/contest/1982/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/B%20-%20Collatz%20Conjecture/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
+| 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 | 2124C | [Subset Multiplication](https://codeforces.com/contest/2124/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2124/C%20-%20Subset%20Multiplication/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
