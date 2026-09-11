@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 196 | 33 |
+| 197 | 33 |
 
 ---
 
@@ -24,24 +24,24 @@
 - [data structures](#data-structures) (21)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (29)
+- [dp](#dp) (30)
 - [dsu](#dsu) (2)
 - [flows](#flows) (1)
 - [games](#games) (7)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (69)
+- [greedy](#greedy) (70)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (30)
 - [interactive](#interactive) (1)
-- [math](#math) (86)
+- [math](#math) (87)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (45)
 - [probabilities](#probabilities) (4)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (25)
-- [strings](#strings) (11)
+- [strings](#strings) (12)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (11)
@@ -310,6 +310,7 @@
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2252B | [Always Changing](https://codeforces.com/contest/2252/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2252/B%20-%20Always%20Changing/solution.cpp) |
 
 ### dsu
 
@@ -427,6 +428,7 @@
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
 | 2247D1 | [XOR Sorting (Easy Version)](https://codeforces.com/contest/2247/problem/D1) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2247/D1%20-%20XOR%20Sorting%20(Easy%20Version)/solution.cpp) |
+| 2252B | [Always Changing](https://codeforces.com/contest/2252/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2252/B%20-%20Always%20Changing/solution.cpp) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
 
 ### hashing
@@ -567,6 +569,7 @@
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2252B | [Always Changing](https://codeforces.com/contest/2252/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2252/B%20-%20Always%20Changing/solution.cpp) |
 
 ### matrices
 
@@ -684,6 +687,7 @@
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
+| 2252B | [Always Changing](https://codeforces.com/contest/2252/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2252/B%20-%20Always%20Changing/solution.cpp) |
 
 ### ternary search
 
