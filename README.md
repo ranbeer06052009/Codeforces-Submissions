@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 197 | 33 |
+| 198 | 33 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (6)
-- [Uncategorized](#uncategorized) (31)
+- [Uncategorized](#uncategorized) (32)
 - [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (11)
 - [brute force](#brute-force) (33)
@@ -93,6 +93,7 @@
 | 2256D | [A Ribbon for Tomorrow](https://codeforces.com/contest/2256/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2256/D%20-%20A%20Ribbon%20for%20Tomorrow/solution.cpp) |
 | 2260A | [Monocarp's Contest](https://codeforces.com/contest/2260/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2260/A%20-%20Monocarp's%20Contest/solution.cpp) |
 | 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.cpp) |
+| 2263C1 | [Floor of MEX (Easy Version)](https://codeforces.com/contest/2263/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2263/C1%20-%20Floor%20of%20MEX%20(Easy%20Version)/solution.cpp) |
 | 103373B | [Aliquot Sum](https://codeforces.com/contest/103373/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/103373/B%20-%20Aliquot%20Sum/solution.cpp) |
 
 ### binary search
