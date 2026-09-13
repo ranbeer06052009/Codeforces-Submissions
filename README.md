@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 202 | 33 |
+| 203 | 33 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (6)
-- [Uncategorized](#uncategorized) (36)
+- [Uncategorized](#uncategorized) (37)
 - [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (11)
 - [brute force](#brute-force) (33)
@@ -98,6 +98,7 @@
 | 2263C1 | [Floor of MEX (Easy Version)](https://codeforces.com/contest/2263/problem/C1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2263/C1%20-%20Floor%20of%20MEX%20(Easy%20Version)/solution.cpp) |
 | 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 | 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
+| 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.cpp) |
 | 103373B | [Aliquot Sum](https://codeforces.com/contest/103373/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/103373/B%20-%20Aliquot%20Sum/solution.cpp) |
 
 ### binary search
