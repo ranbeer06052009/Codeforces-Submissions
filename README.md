@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 215 | 34 |
+| 216 | 34 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [combinatorics](#combinatorics) (13)
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (36)
-- [data structures](#data-structures) (21)
+- [data structures](#data-structures) (22)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (30)
@@ -32,7 +32,7 @@
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (77)
+- [greedy](#greedy) (78)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (32)
 - [interactive](#interactive) (1)
@@ -41,10 +41,10 @@
 - [number theory](#number-theory) (46)
 - [probabilities](#probabilities) (4)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (27)
+- [sortings](#sortings) (28)
 - [strings](#strings) (12)
 - [ternary search](#ternary-search) (1)
-- [trees](#trees) (2)
+- [trees](#trees) (3)
 - [two pointers](#two-pointers) (13)
 
 ---
@@ -275,6 +275,7 @@
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
 | 1420D | [Rescue Nibel!](https://codeforces.com/contest/1420/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/D%20-%20Rescue%20Nibel!/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
+| 1466D | [13th Labour of Heracles](https://codeforces.com/contest/1466/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1466/D%20-%2013th%20Labour%20of%20Heracles/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
@@ -418,6 +419,7 @@
 | 1421A | [XORwice](https://codeforces.com/contest/1421/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1421/A%20-%20XORwice/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.cpp) |
+| 1466D | [13th Labour of Heracles](https://codeforces.com/contest/1466/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1466/D%20-%2013th%20Labour%20of%20Heracles/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.cpp) |
 | 1497B | [M-arrays](https://codeforces.com/contest/1497/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1497/B%20-%20M-arrays/solution.cpp) |
@@ -700,6 +702,7 @@
 | 1420A | [Cubes Sorting](https://codeforces.com/contest/1420/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/A%20-%20Cubes%20Sorting/solution.cpp) |
 | 1420D | [Rescue Nibel!](https://codeforces.com/contest/1420/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/D%20-%20Rescue%20Nibel!/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
+| 1466D | [13th Labour of Heracles](https://codeforces.com/contest/1466/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1466/D%20-%2013th%20Labour%20of%20Heracles/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1539C | [Stable Groups](https://codeforces.com/contest/1539/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1539/C%20-%20Stable%20Groups/solution.cpp) |
 | 1627B | [Not Sitting](https://codeforces.com/contest/1627/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1627/B%20-%20Not%20Sitting/solution.cpp) |
@@ -740,6 +743,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
+| 1466D | [13th Labour of Heracles](https://codeforces.com/contest/1466/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1466/D%20-%2013th%20Labour%20of%20Heracles/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 
 ### two pointers
