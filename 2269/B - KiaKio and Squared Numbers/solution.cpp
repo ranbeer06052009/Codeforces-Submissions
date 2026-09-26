@@ -229,7 +229,7 @@ ll bitPos(ll val, ll pos) { return ((1ll << pos) & val) > 0; }
  
 ll f(ll n){
     int i=0;
-    while(i<100){
+    while(i<1000){
         ll cur=0;
         while(n>0){
             ll d=n%10;
