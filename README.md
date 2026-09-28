@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 225 | 34 |
+| 226 | 34 |
 
 ---
 
@@ -15,9 +15,9 @@
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (48)
-- [binary search](#binary-search) (13)
+- [binary search](#binary-search) (14)
 - [bitmasks](#bitmasks) (13)
-- [brute force](#brute-force) (34)
+- [brute force](#brute-force) (35)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (13)
 - [communication](#communication) (1)
@@ -25,18 +25,18 @@
 - [data structures](#data-structures) (22)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (30)
+- [dp](#dp) (31)
 - [dsu](#dsu) (2)
 - [flows](#flows) (1)
 - [games](#games) (7)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (80)
+- [greedy](#greedy) (81)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (33)
+- [implementation](#implementation) (34)
 - [interactive](#interactive) (1)
-- [math](#math) (91)
+- [math](#math) (92)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (47)
 - [probabilities](#probabilities) (4)
@@ -130,6 +130,7 @@
 | 1416A | [k-Amazing Numbers](https://codeforces.com/contest/1416/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1416/A%20-%20k-Amazing%20Numbers/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1500B | [Two chandeliers](https://codeforces.com/contest/1500/problem/B) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1500/B%20-%20Two%20chandeliers/solution.cpp) |
+| 1659C | [Line Empire](https://codeforces.com/contest/1659/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1659/C%20-%20Line%20Empire/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1698D | [Fixed Point Guessing](https://codeforces.com/contest/1698/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1698/D%20-%20Fixed%20Point%20Guessing/solution.cpp) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
@@ -172,6 +173,7 @@
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
+| 1659C | [Line Empire](https://codeforces.com/contest/1659/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1659/C%20-%20Line%20Empire/solution.cpp) |
 | 1667A | [Make it Increasing](https://codeforces.com/contest/1667/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1667/A%20-%20Make%20it%20Increasing/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
@@ -335,6 +337,7 @@
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
+| 1659C | [Line Empire](https://codeforces.com/contest/1659/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1659/C%20-%20Line%20Empire/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1741E | [Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1741/E%20-%20Sending%20a%20Sequence%20Over%20the%20Network/solution.cpp) |
@@ -440,6 +443,7 @@
 | 1621B | [Integers Shop](https://codeforces.com/contest/1621/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1621/B%20-%20Integers%20Shop/solution.cpp) |
 | 1627B | [Not Sitting](https://codeforces.com/contest/1627/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1627/B%20-%20Not%20Sitting/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
+| 1659C | [Line Empire](https://codeforces.com/contest/1659/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1659/C%20-%20Line%20Empire/solution.cpp) |
 | 1667A | [Make it Increasing](https://codeforces.com/contest/1667/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1667/A%20-%20Make%20it%20Increasing/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
@@ -507,6 +511,7 @@
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1621B | [Integers Shop](https://codeforces.com/contest/1621/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1621/B%20-%20Integers%20Shop/solution.cpp) |
+| 1659C | [Line Empire](https://codeforces.com/contest/1659/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1659/C%20-%20Line%20Empire/solution.cpp) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 | 1789C | [Serval and Toxel's Arrays](https://codeforces.com/contest/1789/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/C%20-%20Serval%20and%20Toxel's%20Arrays/solution.cpp) |
@@ -582,6 +587,7 @@
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
+| 1659C | [Line Empire](https://codeforces.com/contest/1659/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1659/C%20-%20Line%20Empire/solution.cpp) |
 | 1667A | [Make it Increasing](https://codeforces.com/contest/1667/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1667/A%20-%20Make%20it%20Increasing/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
