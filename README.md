@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 227 | 34 |
+| 231 | 34 |
 
 ---
 
@@ -15,37 +15,37 @@
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (48)
-- [binary search](#binary-search) (14)
+- [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (14)
-- [brute force](#brute-force) (36)
+- [brute force](#brute-force) (37)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (13)
 - [communication](#communication) (1)
-- [constructive algorithms](#constructive-algorithms) (37)
-- [data structures](#data-structures) (22)
+- [constructive algorithms](#constructive-algorithms) (39)
+- [data structures](#data-structures) (23)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (31)
+- [dp](#dp) (33)
 - [dsu](#dsu) (2)
 - [flows](#flows) (1)
 - [games](#games) (7)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (81)
+- [greedy](#greedy) (82)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (34)
 - [interactive](#interactive) (1)
-- [math](#math) (93)
+- [math](#math) (95)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (47)
+- [number theory](#number-theory) (48)
 - [probabilities](#probabilities) (4)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (28)
+- [sortings](#sortings) (29)
 - [strings](#strings) (12)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (3)
-- [two pointers](#two-pointers) (13)
+- [two pointers](#two-pointers) (15)
 
 ---
 
@@ -135,6 +135,7 @@
 | 1698D | [Fixed Point Guessing](https://codeforces.com/contest/1698/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1698/D%20-%20Fixed%20Point%20Guessing/solution.cpp) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
+| 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 
@@ -185,6 +186,7 @@
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.cpp) |
+| 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
 | 1850F | [We Were Both Children](https://codeforces.com/contest/1850/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1850/F%20-%20We%20Were%20Both%20Children/solution.cpp) |
 | 1882B | [Sets and Union](https://codeforces.com/contest/1882/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1882/B%20-%20Sets%20and%20Union/solution.cpp) |
 | 1902C | [Insert and Equalize](https://codeforces.com/contest/1902/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1902/C%20-%20Insert%20and%20Equalize/solution.cpp) |
@@ -256,10 +258,12 @@
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1882B | [Sets and Union](https://codeforces.com/contest/1882/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1882/B%20-%20Sets%20and%20Union/solution.cpp) |
+| 1893B | [Neutral Tonality](https://codeforces.com/contest/1893/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1893/B%20-%20Neutral%20Tonality/solution.cpp) |
 | 1902C | [Insert and Equalize](https://codeforces.com/contest/1902/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1902/C%20-%20Insert%20and%20Equalize/solution.cpp) |
 | 1916B | [Two Divisors](https://codeforces.com/contest/1916/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1916/B%20-%20Two%20Divisors/solution.cpp) |
 | 1925A | [We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/A%20-%20We%20Got%20Everything%20Covered!/solution.cpp) |
 | 1957B | [A BIT of a Construction](https://codeforces.com/contest/1957/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1957/B%20-%20A%20BIT%20of%20a%20Construction/solution.cpp) |
+| 2115A | [Gellyfish and Flaming Peony](https://codeforces.com/contest/2115/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2115/A%20-%20Gellyfish%20and%20Flaming%20Peony/solution.cpp) |
 | 2124C | [Subset Multiplication](https://codeforces.com/contest/2124/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2124/C%20-%20Subset%20Multiplication/solution.cpp) |
 | 2147B | [Multiple Construction](https://codeforces.com/contest/2147/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2147/B%20-%20Multiple%20Construction/solution.cpp) |
 | 2190A | [Sorting Game](https://codeforces.com/contest/2190/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2190/A%20-%20Sorting%20Game/solution.cpp) |
@@ -295,6 +299,7 @@
 | 1621B | [Integers Shop](https://codeforces.com/contest/1621/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1621/B%20-%20Integers%20Shop/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
+| 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
@@ -347,7 +352,9 @@
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
 | 1789C | [Serval and Toxel's Arrays](https://codeforces.com/contest/1789/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1789/C%20-%20Serval%20and%20Toxel's%20Arrays/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
+| 2115A | [Gellyfish and Flaming Peony](https://codeforces.com/contest/2115/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2115/A%20-%20Gellyfish%20and%20Flaming%20Peony/solution.cpp) |
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.cpp) |
+| 2222C | [Median Partition](https://codeforces.com/contest/2222/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2222/C%20-%20Median%20Partition/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
 | 2252B | [Always Changing](https://codeforces.com/contest/2252/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2252/B%20-%20Always%20Changing/solution.cpp) |
@@ -456,6 +463,7 @@
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 1882B | [Sets and Union](https://codeforces.com/contest/1882/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1882/B%20-%20Sets%20and%20Union/solution.cpp) |
+| 1893B | [Neutral Tonality](https://codeforces.com/contest/1893/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1893/B%20-%20Neutral%20Tonality/solution.cpp) |
 | 1898B | [Milena and Admirer](https://codeforces.com/contest/1898/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1898/B%20-%20Milena%20and%20Admirer/solution.cpp) |
 | 1902C | [Insert and Equalize](https://codeforces.com/contest/1902/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1902/C%20-%20Insert%20and%20Equalize/solution.cpp) |
 | 1925A | [We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/A%20-%20We%20Got%20Everything%20Covered!/solution.cpp) |
@@ -617,10 +625,12 @@
 | 1982B | [Collatz Conjecture](https://codeforces.com/contest/1982/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/B%20-%20Collatz%20Conjecture/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
+| 2115A | [Gellyfish and Flaming Peony](https://codeforces.com/contest/2115/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2115/A%20-%20Gellyfish%20and%20Flaming%20Peony/solution.cpp) |
 | 2124C | [Subset Multiplication](https://codeforces.com/contest/2124/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2124/C%20-%20Subset%20Multiplication/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2196A | [Game with a Fraction](https://codeforces.com/contest/2196/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2196/A%20-%20Game%20with%20a%20Fraction/solution.cpp) |
+| 2222C | [Median Partition](https://codeforces.com/contest/2222/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2222/C%20-%20Median%20Partition/solution.cpp) |
 | 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
 | 2225D | [Exceptional Segments](https://codeforces.com/contest/2225/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2225/D%20-%20Exceptional%20Segments/solution.cpp) |
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
@@ -683,6 +693,7 @@
 | 1982B | [Collatz Conjecture](https://codeforces.com/contest/1982/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/B%20-%20Collatz%20Conjecture/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
+| 2115A | [Gellyfish and Flaming Peony](https://codeforces.com/contest/2115/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2115/A%20-%20Gellyfish%20and%20Flaming%20Peony/solution.cpp) |
 | 2124C | [Subset Multiplication](https://codeforces.com/contest/2124/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2124/C%20-%20Subset%20Multiplication/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
@@ -733,6 +744,7 @@
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
+| 1893B | [Neutral Tonality](https://codeforces.com/contest/1893/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1893/B%20-%20Neutral%20Tonality/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.cpp) |
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
@@ -784,6 +796,8 @@
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
+| 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
+| 1893B | [Neutral Tonality](https://codeforces.com/contest/1893/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1893/B%20-%20Neutral%20Tonality/solution.cpp) |
 | 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 
