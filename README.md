@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 233 | 34 |
+| 234 | 34 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [combinatorics](#combinatorics) (13)
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (40)
-- [data structures](#data-structures) (23)
+- [data structures](#data-structures) (24)
 - [dfs and similar](#dfs-and-similar) (7)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (34)
@@ -32,7 +32,7 @@
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (83)
+- [greedy](#greedy) (84)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (34)
 - [interactive](#interactive) (1)
@@ -41,7 +41,7 @@
 - [number theory](#number-theory) (48)
 - [probabilities](#probabilities) (4)
 - [shortest paths](#shortest-paths) (3)
-- [sortings](#sortings) (29)
+- [sortings](#sortings) (30)
 - [strings](#strings) (13)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (3)
@@ -301,6 +301,7 @@
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1805C | [Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1805/C%20-%20Place%20for%20a%20Selfie/solution.cpp) |
 | 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
+| 1974G | [Money Buys Less Happiness Now ](https://codeforces.com/contest/1974/problem/G) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1974/G%20-%20Money%20Buys%20Less%20Happiness%20Now%20/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
@@ -475,6 +476,7 @@
 | 1925A | [We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/A%20-%20We%20Got%20Everything%20Covered!/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 1957B | [A BIT of a Construction](https://codeforces.com/contest/1957/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1957/B%20-%20A%20BIT%20of%20a%20Construction/solution.cpp) |
+| 1974G | [Money Buys Less Happiness Now ](https://codeforces.com/contest/1974/problem/G) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1974/G%20-%20Money%20Buys%20Less%20Happiness%20Now%20/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
 | 2124C | [Subset Multiplication](https://codeforces.com/contest/2124/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2124/C%20-%20Subset%20Multiplication/solution.cpp) |
@@ -753,6 +755,7 @@
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.cpp) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
 | 1893B | [Neutral Tonality](https://codeforces.com/contest/1893/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1893/B%20-%20Neutral%20Tonality/solution.cpp) |
+| 1974G | [Money Buys Less Happiness Now ](https://codeforces.com/contest/1974/problem/G) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1974/G%20-%20Money%20Buys%20Less%20Happiness%20Now%20/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.cpp) |
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
