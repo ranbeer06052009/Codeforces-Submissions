@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 232 | 34 |
+| 233 | 34 |
 
 ---
 
@@ -23,15 +23,15 @@
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (40)
 - [data structures](#data-structures) (23)
-- [dfs and similar](#dfs-and-similar) (6)
+- [dfs and similar](#dfs-and-similar) (7)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (34)
-- [dsu](#dsu) (2)
+- [dsu](#dsu) (3)
 - [flows](#flows) (1)
 - [games](#games) (7)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (1)
+- [graphs](#graphs) (2)
 - [greedy](#greedy) (83)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (34)
@@ -40,7 +40,7 @@
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (48)
 - [probabilities](#probabilities) (4)
-- [shortest paths](#shortest-paths) (2)
+- [shortest paths](#shortest-paths) (3)
 - [sortings](#sortings) (29)
 - [strings](#strings) (13)
 - [ternary search](#ternary-search) (1)
@@ -313,6 +313,7 @@
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
 | 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 
@@ -366,6 +367,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 
 ### flows
@@ -404,6 +406,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1106D | [Lunar New Year and a Wander](https://codeforces.com/contest/1106/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1106/D%20-%20Lunar%20New%20Year%20and%20a%20Wander/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 
 ### greedy
 
@@ -718,6 +721,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1106D | [Lunar New Year and a Wander](https://codeforces.com/contest/1106/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1106/D%20-%20Lunar%20New%20Year%20and%20a%20Wander/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 1924A | [Did We Get Everything Covered?](https://codeforces.com/contest/1924/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1924/A%20-%20Did%20We%20Get%20Everything%20Covered%3F/solution.cpp) |
 
 ### sortings
