@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 236 | 34 |
+| 237 | 34 |
 
 ---
 
@@ -25,7 +25,7 @@
 - [data structures](#data-structures) (25)
 - [dfs and similar](#dfs-and-similar) (7)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (35)
+- [dp](#dp) (36)
 - [dsu](#dsu) (3)
 - [flows](#flows) (1)
 - [games](#games) (7)
@@ -334,6 +334,7 @@
 | 518D | [Ilya and Escalator](https://codeforces.com/contest/518/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/518/D%20-%20Ilya%20and%20Escalator/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
+| 687C | [The Values You Can Make](https://codeforces.com/contest/687/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/687/C%20-%20The%20Values%20You%20Can%20Make/solution.cpp) |
 | 891A | [Pride](https://codeforces.com/contest/891/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/891/A%20-%20Pride/solution.cpp) |
 | 1084C | [The Fair Nut and String](https://codeforces.com/contest/1084/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1084/C%20-%20The%20Fair%20Nut%20and%20String/solution.cpp) |
 | 1195C | [Basketball Exercise](https://codeforces.com/contest/1195/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1195/C%20-%20Basketball%20Exercise/solution.cpp) |
