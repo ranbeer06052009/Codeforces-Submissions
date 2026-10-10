@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 238 | 34 |
+| 239 | 34 |
 
 ---
 
@@ -25,7 +25,7 @@
 - [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (7)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (37)
+- [dp](#dp) (38)
 - [dsu](#dsu) (3)
 - [flows](#flows) (1)
 - [games](#games) (7)
@@ -334,6 +334,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 87C | [Interesting Game](https://codeforces.com/contest/87/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/87/C%20-%20Interesting%20Game/solution.cpp) |
+| 455A | [Boredom](https://codeforces.com/contest/455/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/455/A%20-%20Boredom/solution.cpp) |
 | 518D | [Ilya and Escalator](https://codeforces.com/contest/518/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/518/D%20-%20Ilya%20and%20Escalator/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
