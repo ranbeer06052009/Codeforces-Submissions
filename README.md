@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 244 | 34 |
+| 245 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (50)
+- [Uncategorized](#uncategorized) (51)
 - [binary search](#binary-search) (16)
 - [bitmasks](#bitmasks) (14)
 - [brute force](#brute-force) (41)
@@ -118,6 +118,7 @@
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.cpp) |
 | 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.cpp) |
 | 2271B | [MEX Game](https://codeforces.com/contest/2271/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2271/B%20-%20MEX%20Game/solution.cpp) |
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.cpp) |
 | 2274B | [Prefix](https://codeforces.com/contest/2274/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2274/B%20-%20Prefix/solution.cpp) |
 | 103373B | [Aliquot Sum](https://codeforces.com/contest/103373/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/103373/B%20-%20Aliquot%20Sum/solution.cpp) |
 
