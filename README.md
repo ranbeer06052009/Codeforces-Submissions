@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 250 | 34 |
+| 251 | 34 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [Uncategorized](#uncategorized) (51)
 - [binary search](#binary-search) (16)
 - [bitmasks](#bitmasks) (14)
-- [brute force](#brute-force) (43)
+- [brute force](#brute-force) (44)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (13)
 - [communication](#communication) (1)
@@ -34,7 +34,7 @@
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (89)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (38)
+- [implementation](#implementation) (39)
 - [interactive](#interactive) (1)
 - [math](#math) (99)
 - [matrices](#matrices) (1)
@@ -193,6 +193,7 @@
 | 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.cpp) |
 | 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
 | 1850F | [We Were Both Children](https://codeforces.com/contest/1850/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1850/F%20-%20We%20Were%20Both%20Children/solution.cpp) |
+| 1881C | [Perfect Square](https://codeforces.com/contest/1881/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1881/C%20-%20Perfect%20Square/solution.cpp) |
 | 1882B | [Sets and Union](https://codeforces.com/contest/1882/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1882/B%20-%20Sets%20and%20Union/solution.cpp) |
 | 1902C | [Insert and Equalize](https://codeforces.com/contest/1902/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1902/C%20-%20Insert%20and%20Equalize/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
@@ -563,6 +564,7 @@
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1814/A%20-%20Coins/solution.cpp) |
 | 1850F | [We Were Both Children](https://codeforces.com/contest/1850/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1850/F%20-%20We%20Were%20Both%20Children/solution.cpp) |
 | 1851D | [Prefix Permutation Sums](https://codeforces.com/contest/1851/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1851/D%20-%20Prefix%20Permutation%20Sums/solution.cpp) |
+| 1881C | [Perfect Square](https://codeforces.com/contest/1881/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1881/C%20-%20Perfect%20Square/solution.cpp) |
 | 1957B | [A BIT of a Construction](https://codeforces.com/contest/1957/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1957/B%20-%20A%20BIT%20of%20a%20Construction/solution.cpp) |
 | 1982B | [Collatz Conjecture](https://codeforces.com/contest/1982/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/B%20-%20Collatz%20Conjecture/solution.cpp) |
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
