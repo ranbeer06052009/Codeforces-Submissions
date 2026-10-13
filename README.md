@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 246 | 34 |
+| 247 | 34 |
 
 ---
 
@@ -36,7 +36,7 @@
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (37)
 - [interactive](#interactive) (1)
-- [math](#math) (95)
+- [math](#math) (96)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (48)
 - [probabilities](#probabilities) (4)
@@ -673,6 +673,7 @@
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
 | 2252B | [Always Changing](https://codeforces.com/contest/2252/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2252/B%20-%20Always%20Changing/solution.cpp) |
+| 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.cpp) |
 
 ### matrices
 
