@@ -1,17 +1,268 @@
-<h2><a href="https://codeforces.com/contest/2261/problem/B" target="_blank" rel="noopener noreferrer">2261B — What's the Capital of France?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | Unrated |
-| **Language** | C++23 (GCC 14-64, msys2) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2261B](https://codeforces.com/contest/2261/problem/B) |
-
-## Topics
-`bitmasks` `greedy` `math`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">B. What's the Capital of France?</div><div class="time-limit"><div class="property-title">time limit per test</div>1.5 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p> </p><p>Obesity might not know the capital of France, but he does know that France has lots of restaurants.</p><p>There are $$$n$$$ restaurants in a line. The $$$i$$$-th restaurant has rating $$$a_i$$$.</p><p>Obesity can alter the ratings of the restaurants with his special power. In one operation, Obesity chooses two adjacent restaurants. If they have the same rating, nothing happens. Otherwise, the rating of the lower side is increased by $$$1$$$.</p><p>Formally, in one operation, he does the following: </p><ul> <li> Choose an index $$$i$$$ ($$$1 \le i  \lt  n$$$). </li><li> If $$$a_i  \lt  a_{i+1}$$$, increase $$$a_i$$$ by $$$1$$$. </li><li> If $$$a_i = a_{i+1}$$$, do nothing. </li><li> If $$$a_i  \gt  a_{i+1}$$$, increase $$$a_{i+1}$$$ by $$$1$$$. </li></ul><p>The <span class="tex-font-style-it">delicacy</span> of the restaurants is the value of the <a href="https://en.wikipedia.org/wiki/Bitwise_operation#OR">bitwise OR</a> of the ratings of all restaurants.</p><p>What is the maximum <span class="tex-font-style-it">delicacy</span> Obesity can achieve after performing zero or more operations?</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^4$$$). The description of the test cases follows.</p><p>The description of the test cases follows. The first line of each test case contains a single integer $$$n$$$ ($$$1 \le n \le 2 \cdot 10^5$$$).</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \le a_i \le 10^9$$$).</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print one integer — the maximum delicacy of all restaurants.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0003258419822203784" id="id0033091879022637605" class="input-output-copier">Copy</div></div><pre id="id0003258419822203784"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-odd test-example-line-1">0</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-even test-example-line-2">1 2</div><div class="test-example-line test-example-line-odd test-example-line-3">2</div><div class="test-example-line test-example-line-odd test-example-line-3">4 6</div><div class="test-example-line test-example-line-even test-example-line-4">3</div><div class="test-example-line test-example-line-even test-example-line-4">8 8 8</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006074392904096643" id="id009764094077648797" class="input-output-copier">Copy</div></div><pre id="id006074392904096643"><div class="test-example-line test-example-line-odd test-example-line-1">0</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-odd test-example-line-3">7</div><div class="test-example-line test-example-line-even test-example-line-4">8</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, Obesity cannot perform any operations.</p><p>In the second test case, it is optimal for Obesity to perform no operations: $$$1\, |\, 2 = 3$$$.</p><p>In the third test case, Obesity can choose $$$i=1$$$. Since $$$4 \le 6$$$, he increases the rating of the first restaurant by $$$1$$$. The ratings are now $$$[5,6]$$$, which gives a <span class="tex-font-style-it">delicacy</span> of $$$7$$$. It can be shown that $$$7$$$ is the maximum delicacy no matter how many operations are performed.</p></div>
+#pragma GCC optimize("Ofast,unroll-loops")
+#include <bits/allocator.h>
+#pragma GCC target("avx2")
+#include <bits/stdc++.h>
+using namespace std;
+#define fastio() ios_base::sync_with_stdio(false); cin.tie(NULL);cout.tie(NULL)
+// Captain levi Ackerman:
+ /*"The only thing we're allowed to do is believe that we won't regret the choice we made."
+ "The world doesn’t care about your pain — only your will to rise again."
+ " Sometimme to find the way you must loose yourself in the grind"
+ " No matter what kind of wisdom dictates the option you should pick No one will be able to tell if it's right or wrong until you arrive at some sort of outcome"*/
+ 
+// Eren yeager:
+/*"If you win, you live. If you lose, you die. If you don't fight, you can't win! So Fight ! Just Fight!"
+"You'll Never Know. If You're Not The One Who's Continuing To Take That Path... Unless You Keep Moving Forward."*/
+ 
+// Commander Erwin Smith :
+/*"If you begin to regret, you’ll dull your future decisions and let others make your choices for you. Nobody can foretell the outcome. Each decision you make holds meaning only by affecting your next decision."*/
+ 
+ 
+/* ---------------- pbds (order statistics tree) ---------------- */
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+ 
+template <class T, class Cmp = std::less<T>>
+using ordered_set =
+    tree<T, null_type, Cmp, rb_tree_tag, tree_order_statistics_node_update>;
+ 
+template <class T, class Cmp = std::less_equal<T>>
+using ordered_multiset =
+    tree<T, null_type, Cmp, rb_tree_tag, tree_order_statistics_node_update>;
+ 
+/* ---------------- aliases ---------------- */
+using ll = long long;
+using ull = unsigned long long;
+using ld = long double;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi = vector<int>;
+using vll = vector<ll>;
+using vvi = vector<vi>;
+using vvll = vector<vll>;
+using vs = vector<string>;
+using vpii = vector<pii>;
+using vpll = vector<pll>;
+using mii = map<int, int>;
+using mll = map<ll, ll>;
+ 
+constexpr ll MOD = 10000000007;
+ 
+/* ---------------- handy macros & helpers ---------------- */
+#define all(x) begin(x), end(x)
+#define rall(x) rbegin(x), rend(x)
+#define ls(u) (u << 1)
+#define rs(u) (u << 1 | 1)
+#define rep(i, a, b) for (ll i = a; i <= b; i++)
+#define rrep(i, a, b) for (ll i = a; i >= b; i--)
+#define F first
+#define S second
+ 
+/* ---------------- Number Theory ---------------- */
+const int MAX = 200005;
+ll fact[MAX], invFact[MAX];
+ 
+ll power(ll base, ll exp) {
+    ll res = 1;
+    base %= MOD;
+    while (exp > 0) {
+        if (exp % 2 == 1) res = (res * base) % MOD;
+        base = (base * base) % MOD;
+        exp /= 2;
+    }
+    return res;
+}
+ 
+ll modInverse(ll n) {
+    return power(n, MOD - 2);
+}
+ 
+// Precomputes factorials in O(N)
+void precompute() {
+    fact[0] = 1;
+    invFact[0] = 1;
+    for (int i = 1; i < MAX; i++) {
+        fact[i] = (fact[i - 1] * i) % MOD;
+    }
+    invFact[MAX - 1] = modInverse(fact[MAX - 1]);
+    for (int i = MAX - 2; i >= 1; i--) {
+        invFact[i] = (invFact[i + 1] * (i + 1)) % MOD;
+    }
+}
+ 
+// O(1) combinations calculation
+ll prenCr(int n, int r) {
+    if (r < 0 || r > n) return 0;
+    return fact[n] * invFact[r] % MOD * invFact[n - r] % MOD;
+}
+ll ncr(int n,int r){
+    if (r < 0 || r > n) return 0;
+    if (r == 0 || r == n) return 1;
+    if (r > n - r) {
+        r = n - r;
+    }
+ 
+    ll num = 1;
+    ll den = 1;
+ 
+    for (int i = 0; i < r; ++i) {
+        num = (num * (n - i)) % MOD;
+        den = (den * (i + 1)) % MOD;
+    }
+ 
+    return (num * modInverse(den)) % MOD;
+}
+ll extGCD(ll a, ll b, ll &x, ll &y) {
+    if (b == 0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    ll x1, y1;
+    ll d = extGCD(b, a % b, x1, y1);
+    x = y1;
+    y = x1 - y1 * (a / b);
+    return d;
+}
+bool find_any_solution(ll a, ll b, ll c, ll &x0, ll &y0, ll &g) {
+    g= extGCD(abs(a), abs(b), x0, y0);
+    if (c%g!= 0) {
+        return false;
+    }
+ 
+    x0*=c/g;
+    y0*=c/g;
+    if(a<0)x0= -x0;
+    if(b<0)y0= -y0;
+    return true;
+}
+ 
+vll sieve(int n) {
+    vll primes;
+    vector<bool> isPrime(n + 1, true);
+    isPrime[0] = isPrime[1] = false;
+    for (int i = 2; i <= n; ++i) {
+        if (isPrime[i]) {
+            primes.push_back(i);
+            for (int j = i * 2; j <= n; j += i) isPrime[j] = false;
+        }
+    }
+    return primes;
+}
+ 
+vector<pair<ll, ll>> primeFactors(ll n) {
+    vector<pair<ll, ll>> factors;
+    for (ll i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            ll count = 0;
+            while (n % i == 0) {
+                n /= i;
+                count++;
+            }
+            factors.emplace_back(i, count);
+        }
+    }
+    if (n > 1) {
+        factors.emplace_back(n, 1);
+    }
+    return factors;
+}
+ 
+ll phi(ll n) {
+    ll result = n;
+    for (ll i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            while (n % i == 0) {
+                n /= i;
+            }
+            result -= result / i;
+        }
+    }
+    if (n > 1) {
+        result -= result / n;
+    }
+    return result;
+}
+void swap(ll &a, ll &b){
+    ll temp=a;
+    a=b;
+    b=temp;
+}
+ll gcd(ll a, ll b) {
+    while(b) { 
+        a %= b; 
+        swap(a, b); 
+    } 
+    return a; 
+}
+ 
+ll lcm(ll a, ll b) { 
+    if (a == 0 || b == 0) return 0;
+    return (a / gcd(a, b)) * b; 
+}
+ll crt(ll r1, ll m1, ll r2, ll m2){
+    ll x,y;
+    ll g=extGCD(m1,m2,x,y);
+    if((r2-r1)%g!=0)return -1;
+    ll m=m1/g*m2;
+    ll temp=r1+x*((r2-r1)/g)%(m2/g)*m1;
+    ll t=(temp%m+m)%m;
+    return t;
+} 
+// Computes Legendre's formula: number of times prime p divides x!
+ll multiplicityP(ll x, ll p){
+    ll count = 0;
+    while(x > 0){
+        count += x / p;
+        x /= p;
+    }
+    return count;
+}
+ 
+/* Bitwise */
+ll msb(ll n) { return n ? 63 - __builtin_clzll(n) : -1; }
+ 
+ll bitPos(ll val, ll pos) { return ((1ll << pos) & val) > 0; }
+ 
+/* ------------- main solve function ------------- */
+ 
+void solve(){
+    int n;
+    cin>>n;
+    vll a(n);
+    ll m=0;
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        m=max(m,a[i]);
+    }
+    ll mx=-1;
+    for(int i=0;i<n;i++){
+        if(a[i]<m){
+            ll diff=a[i]^m;
+            ll k=msb(diff);
+            mx=max(mx,k);
+        }
+    }
+    if(mx==-1){
+        cout<<m;
+    }else{
+        ll ms=(1LL<<(mx+1))-1;
+        cout<<(m|ms);
+    }
+    return;
+}
+ 
+int main(){
+    fastio();
+    int tt = 1;
+    //pre();
+    // precompute();
+    cin >> tt;
+    while (tt--){
+        solve();
+        cout <<"
+";
+    }
+    return 0;
+}
