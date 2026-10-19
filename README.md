@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 262 | 34 |
+| 263 | 34 |
 
 ---
 
@@ -34,7 +34,7 @@
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (91)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (40)
+- [implementation](#implementation) (41)
 - [interactive](#interactive) (2)
 - [math](#math) (103)
 - [matrices](#matrices) (1)
@@ -550,6 +550,7 @@
 |---|---------|------------|----------|
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
+| 688A | [Opponents](https://codeforces.com/contest/688/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/688/A%20-%20Opponents/solution.cpp) |
 | 762B | [USB vs. PS/2](https://codeforces.com/contest/762/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/762/B%20-%20USB%20vs.%20PS%2F2/solution.cpp) |
 | 808B | [Average Sleep Time](https://codeforces.com/contest/808/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/808/B%20-%20Average%20Sleep%20Time/solution.cpp) |
 | 895A | [Pizza Separation](https://codeforces.com/contest/895/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/895/A%20-%20Pizza%20Separation/solution.cpp) |
