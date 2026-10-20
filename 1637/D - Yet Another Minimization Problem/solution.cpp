@@ -246,16 +246,21 @@ void solve(){
         mn+=a[i];
         mx+=b[i];
     }
-    vector<bool> dp(MXS,false);
-    dp[0]=true;
-    int ls=0;
-    for(int i=0; i<n;i++){
-        int diff = b[i] - a[i];
-        for(int j = MXS - 1; j >= diff; j--){
-            if(dp[j - diff]) {
-                dp[j] = true;
-            }
-        }
+    // vector<bool> dp(MXS,false);
+    // dp[0]=true;
+    // int ls=0;
+    // for(int i=0; i<n;i++){
+    //     int diff = b[i] - a[i];
+    //     for(int j = MXS - 1; j >= diff; j--){
+    //         if(dp[j - diff]) {
+    //             dp[j] = true;
+    //         }
+    //     }
+    // }
+    bitset<MXS> dp;
+    dp[0] = 1;
+    for(int i = 0; i < n; i++){
+        dp |= (dp << (b[i] - a[i]));
     }
     int ans=mn*mn+mx*mx;
     for(int i=0;i<=mx-mn;i++){
