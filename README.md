@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 265 | 34 |
+| 266 | 34 |
 
 ---
 
@@ -35,7 +35,7 @@
 - [greedy](#greedy) (93)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (41)
-- [interactive](#interactive) (2)
+- [interactive](#interactive) (3)
 - [math](#math) (104)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (48)
@@ -44,8 +44,8 @@
 - [sortings](#sortings) (32)
 - [strings](#strings) (14)
 - [ternary search](#ternary-search) (1)
-- [trees](#trees) (4)
-- [two pointers](#two-pointers) (16)
+- [trees](#trees) (5)
+- [two pointers](#two-pointers) (17)
 
 ---
 
@@ -602,6 +602,7 @@
 |---|---------|------------|----------|
 | 1698D | [Fixed Point Guessing](https://codeforces.com/contest/1698/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1698/D%20-%20Fixed%20Point%20Guessing/solution.cpp) |
 | 1797C | [Li Hua and Chess](https://codeforces.com/contest/1797/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1797/C%20-%20Li%20Hua%20and%20Chess/solution.cpp) |
+| 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 
 ### math
 
@@ -857,6 +858,7 @@
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
 | 1466D | [13th Labour of Heracles](https://codeforces.com/contest/1466/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1466/D%20-%2013th%20Labour%20of%20Heracles/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
+| 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 
 ### two pointers
@@ -879,6 +881,7 @@
 | 1893B | [Neutral Tonality](https://codeforces.com/contest/1893/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1893/B%20-%20Neutral%20Tonality/solution.cpp) |
 | 1948D | [Tandem Repeats?](https://codeforces.com/contest/1948/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1948/D%20-%20Tandem%20Repeats%3F/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
+| 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 
 ---
 
