@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 264 | 34 |
+| 265 | 34 |
 
 ---
 
@@ -15,15 +15,15 @@
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (57)
-- [binary search](#binary-search) (16)
+- [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (15)
 - [brute force](#brute-force) (44)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (13)
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (41)
-- [data structures](#data-structures) (28)
-- [dfs and similar](#dfs-and-similar) (7)
+- [data structures](#data-structures) (29)
+- [dfs and similar](#dfs-and-similar) (8)
 - [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (42)
 - [dsu](#dsu) (3)
@@ -32,7 +32,7 @@
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (92)
+- [greedy](#greedy) (93)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (41)
 - [interactive](#interactive) (2)
@@ -44,7 +44,7 @@
 - [sortings](#sortings) (32)
 - [strings](#strings) (14)
 - [ternary search](#ternary-search) (1)
-- [trees](#trees) (3)
+- [trees](#trees) (4)
 - [two pointers](#two-pointers) (16)
 
 ---
@@ -147,6 +147,7 @@
 | 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
+| 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 
 ### bitmasks
@@ -327,6 +328,7 @@
 | 1982D | [Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1982/D%20-%20Beauty%20of%20the%20mountains/solution.cpp) |
 | 2014D | [Robert Hood and Mrs Hood](https://codeforces.com/contest/2014/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2014/D%20-%20Robert%20Hood%20and%20Mrs%20Hood/solution.cpp) |
 | 2257E | [Busy Beaver](https://codeforces.com/contest/2257/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/E%20-%20Busy%20Beaver/solution.cpp) |
+| 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
 
 ### dfs and similar
@@ -340,6 +342,7 @@
 | 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 
 ### divide and conquer
 
@@ -537,6 +540,7 @@
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
 | 2261B | [What's the Capital of France?](https://codeforces.com/contest/2261/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/B%20-%20What's%20the%20Capital%20of%20France%3F/solution.cpp) |
+| 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 
 ### hashing
@@ -853,6 +857,7 @@
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
 | 1466D | [13th Labour of Heracles](https://codeforces.com/contest/1466/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1466/D%20-%2013th%20Labour%20of%20Heracles/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
+| 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 
 ### two pointers
 
