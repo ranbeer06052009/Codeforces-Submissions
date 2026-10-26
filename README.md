@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 273 | 34 |
+| 274 | 34 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (14)
 - [communication](#communication) (1)
-- [constructive algorithms](#constructive-algorithms) (43)
+- [constructive algorithms](#constructive-algorithms) (44)
 - [data structures](#data-structures) (29)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (2)
@@ -32,7 +32,7 @@
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (97)
+- [greedy](#greedy) (98)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (43)
 - [interactive](#interactive) (3)
@@ -303,6 +303,7 @@
 | 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.cpp) |
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
+| 2277B | [Sequence Decreasing](https://codeforces.com/contest/2277/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/B%20-%20Sequence%20Decreasing/solution.cpp) |
 
 ### data structures
 
@@ -558,6 +559,7 @@
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 | 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
+| 2277B | [Sequence Decreasing](https://codeforces.com/contest/2277/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/B%20-%20Sequence%20Decreasing/solution.cpp) |
 
 ### hashing
 
