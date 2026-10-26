@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 274 | 34 |
+| 275 | 34 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [communication](#communication) (1)
 - [constructive algorithms](#constructive-algorithms) (44)
 - [data structures](#data-structures) (29)
-- [dfs and similar](#dfs-and-similar) (9)
+- [dfs and similar](#dfs-and-similar) (10)
 - [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (44)
 - [dsu](#dsu) (3)
@@ -31,8 +31,8 @@
 - [games](#games) (8)
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (3)
-- [greedy](#greedy) (98)
+- [graphs](#graphs) (4)
+- [greedy](#greedy) (99)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (43)
 - [interactive](#interactive) (3)
@@ -44,7 +44,7 @@
 - [sortings](#sortings) (32)
 - [strings](#strings) (15)
 - [ternary search](#ternary-search) (2)
-- [trees](#trees) (5)
+- [trees](#trees) (6)
 - [two pointers](#two-pointers) (17)
 
 ---
@@ -352,6 +352,7 @@
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
+| 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
 
 ### divide and conquer
 
@@ -457,6 +458,7 @@
 | 1106D | [Lunar New Year and a Wander](https://codeforces.com/contest/1106/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1106/D%20-%20Lunar%20New%20Year%20and%20a%20Wander/solution.cpp) |
 | 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2276/D%20-%20Caveman/solution.cpp) |
+| 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
 
 ### greedy
 
@@ -560,6 +562,7 @@
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 | 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 | 2277B | [Sequence Decreasing](https://codeforces.com/contest/2277/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/B%20-%20Sequence%20Decreasing/solution.cpp) |
+| 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
 
 ### hashing
 
@@ -884,6 +887,7 @@
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
+| 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
 
 ### two pointers
 
