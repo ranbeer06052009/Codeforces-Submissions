@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 271 | 34 |
+| 272 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (57)
+- [Uncategorized](#uncategorized) (58)
 - [binary search](#binary-search) (19)
 - [bitmasks](#bitmasks) (15)
 - [brute force](#brute-force) (45)
@@ -123,6 +123,7 @@
 | 2271B | [MEX Game](https://codeforces.com/contest/2271/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2271/B%20-%20MEX%20Game/solution.cpp) |
 | 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.cpp) |
 | 2274B | [Prefix](https://codeforces.com/contest/2274/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2274/B%20-%20Prefix/solution.cpp) |
+| 2274C | [Lavencia Oranges](https://codeforces.com/contest/2274/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2274/C%20-%20Lavencia%20Oranges/solution.cpp) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.cpp) |
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.cpp) |
 | 2276C | [Subarrays](https://codeforces.com/contest/2276/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2276/C%20-%20Subarrays/solution.cpp) |
