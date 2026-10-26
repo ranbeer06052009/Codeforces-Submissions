@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 272 | 34 |
+| 273 | 34 |
 
 ---
 
@@ -32,7 +32,7 @@
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (96)
+- [greedy](#greedy) (97)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (43)
 - [interactive](#interactive) (3)
@@ -557,6 +557,7 @@
 | 2261B | [What's the Capital of France?](https://codeforces.com/contest/2261/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/B%20-%20What's%20the%20Capital%20of%20France%3F/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
+| 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 
 ### hashing
 
