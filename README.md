@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 279 | 34 |
+| 280 | 34 |
 
 ---
 
@@ -21,17 +21,17 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (14)
 - [communication](#communication) (1)
-- [constructive algorithms](#constructive-algorithms) (45)
+- [constructive algorithms](#constructive-algorithms) (46)
 - [data structures](#data-structures) (29)
-- [dfs and similar](#dfs-and-similar) (10)
+- [dfs and similar](#dfs-and-similar) (11)
 - [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (44)
-- [dsu](#dsu) (3)
+- [dsu](#dsu) (4)
 - [flows](#flows) (1)
 - [games](#games) (8)
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (4)
+- [graphs](#graphs) (5)
 - [greedy](#greedy) (100)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (43)
@@ -44,7 +44,7 @@
 - [sortings](#sortings) (32)
 - [strings](#strings) (16)
 - [ternary search](#ternary-search) (2)
-- [trees](#trees) (6)
+- [trees](#trees) (7)
 - [two pointers](#two-pointers) (17)
 
 ---
@@ -303,6 +303,7 @@
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
 | 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.cpp) |
 | 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.cpp) |
+| 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.cpp) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2272B | [Frogs Jump](https://codeforces.com/contest/2272/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2272/B%20-%20Frogs%20Jump/solution.cpp) |
@@ -354,6 +355,7 @@
 | 2228C2 | [Cirno and Number (Hard Version)](https://codeforces.com/contest/2228/problem/C2) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2228/C2%20-%20Cirno%20and%20Number%20(Hard%20Version)/solution.cpp) |
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
 
@@ -420,6 +422,7 @@
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
 | 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 
 ### flows
 
@@ -460,6 +463,7 @@
 |---|---------|------------|----------|
 | 1106D | [Lunar New Year and a Wander](https://codeforces.com/contest/1106/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1106/D%20-%20Lunar%20New%20Year%20and%20a%20Wander/solution.cpp) |
 | 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
+| 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2276/D%20-%20Caveman/solution.cpp) |
 | 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
 
@@ -891,6 +895,7 @@
 | 1325C | [Ehab and Path-etic MEXs](https://codeforces.com/contest/1325/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1325/C%20-%20Ehab%20and%20Path-etic%20MEXs/solution.cpp) |
 | 1466D | [13th Labour of Heracles](https://codeforces.com/contest/1466/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1466/D%20-%2013th%20Labour%20of%20Heracles/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
+| 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
