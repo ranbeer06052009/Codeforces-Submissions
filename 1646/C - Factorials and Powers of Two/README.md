@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1646/problem/C" target="_blank" rel="noopener noreferrer">1646C — Factorials and Powers of Two</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1500 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1646C](https://codeforces.com/contest/1646/problem/C) |
+
+## Topics
+`bitmasks` `brute force` `constructive algorithms` `dp` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Factorials and Powers of Two</div><div class="time-limit"><div class="property-title">time limit per test</div>3 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>A number is called <span class="tex-font-style-it">powerful</span> if it is a power of two or a factorial. In other words, the number $$$m$$$ is powerful if there exists a non-negative integer $$$d$$$ such that $$$m=2^d$$$ or $$$m=d!$$$, where $$$d!=1\cdot 2\cdot \ldots \cdot d$$$ (in particular, $$$0! = 1$$$). For example $$$1$$$, $$$4$$$, and $$$6$$$ are powerful numbers, because $$$1=1!$$$, $$$4=2^2$$$, and $$$6=3!$$$ but $$$7$$$, $$$10$$$, or $$$18$$$ are not.</p><p>You are given a positive integer $$$n$$$. Find the minimum number $$$k$$$ such that $$$n$$$ can be represented as the sum of $$$k$$$ <span class="tex-font-style-bf">distinct</span> powerful numbers, or say that there is no such $$$k$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 100$$$). Description of the test cases follows.</p><p>A test case consists of only one line, containing one integer $$$n$$$ ($$$1\le n\le 10^{12}$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case print the answer on a separate line.</p><p>If $$$n$$$ can not be represented as the sum of <span class="tex-font-style-bf">distinct</span> powerful numbers, print $$$-1$$$.</p><p>Otherwise, print a single positive integer  — the minimum possible value of $$$k$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007409938718934683" id="id004980102612360917" class="input-output-copier">Copy</div></div><pre id="id007409938718934683"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">7</div><div class="test-example-line test-example-line-even test-example-line-2">11</div><div class="test-example-line test-example-line-odd test-example-line-3">240</div><div class="test-example-line test-example-line-even test-example-line-4">17179869184</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00635314150630947" id="id009953070688586425" class="input-output-copier">Copy</div></div><pre id="id00635314150630947">2
+3
+4
+1
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, $$$7$$$ can be represented as $$$7=1+6$$$, where $$$1$$$ and $$$6$$$ are powerful numbers. Because $$$7$$$ is not a powerful number, we know that the minimum possible value of $$$k$$$ in this case is $$$k=2$$$.</p><p>In the second test case, a possible way to represent $$$11$$$ as the sum of three powerful numbers is $$$11=1+4+6$$$. We can show that there is no way to represent $$$11$$$ as the sum of two or less powerful numbers. </p><p>In the third test case, $$$240$$$ can be represented as $$$240=24+32+64+120$$$. Observe that $$$240=120+120$$$ is not a valid representation, because the powerful numbers have to be <span class="tex-font-style-bf">distinct</span>. </p><p>In the fourth test case, $$$17179869184=2^{34}$$$, so $$$17179869184$$$ is a powerful number and the minimum $$$k$$$ in this case is $$$k=1$$$.</p></div>
