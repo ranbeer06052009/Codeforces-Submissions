@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 285 | 34 |
+| 286 | 34 |
 
 ---
 
@@ -25,13 +25,13 @@
 - [data structures](#data-structures) (30)
 - [dfs and similar](#dfs-and-similar) (11)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (46)
+- [dp](#dp) (47)
 - [dsu](#dsu) (5)
 - [flows](#flows) (1)
 - [games](#games) (8)
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (6)
+- [graphs](#graphs) (7)
 - [greedy](#greedy) (102)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (44)
@@ -40,7 +40,7 @@
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (50)
 - [probabilities](#probabilities) (4)
-- [shortest paths](#shortest-paths) (3)
+- [shortest paths](#shortest-paths) (4)
 - [sortings](#sortings) (32)
 - [strings](#strings) (16)
 - [ternary search](#ternary-search) (2)
@@ -381,6 +381,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 87C | [Interesting Game](https://codeforces.com/contest/87/problem/C) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/87/C%20-%20Interesting%20Game/solution.cpp) |
+| 295B | [Greg and Graph](https://codeforces.com/contest/295/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/295/B%20-%20Greg%20and%20Graph/solution.cpp) |
 | 455A | [Boredom](https://codeforces.com/contest/455/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/455/A%20-%20Boredom/solution.cpp) |
 | 518D | [Ilya and Escalator](https://codeforces.com/contest/518/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/518/D%20-%20Ilya%20and%20Escalator/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
@@ -474,6 +475,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 295B | [Greg and Graph](https://codeforces.com/contest/295/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/295/B%20-%20Greg%20and%20Graph/solution.cpp) |
 | 1106D | [Lunar New Year and a Wander](https://codeforces.com/contest/1106/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1106/D%20-%20Lunar%20New%20Year%20and%20a%20Wander/solution.cpp) |
 | 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 1994D | [Funny Game](https://codeforces.com/contest/1994/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1994/D%20-%20Funny%20Game/solution.cpp) |
@@ -841,6 +843,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 295B | [Greg and Graph](https://codeforces.com/contest/295/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/295/B%20-%20Greg%20and%20Graph/solution.cpp) |
 | 1106D | [Lunar New Year and a Wander](https://codeforces.com/contest/1106/problem/D) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1106/D%20-%20Lunar%20New%20Year%20and%20a%20Wander/solution.cpp) |
 | 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 1924A | [Did We Get Everything Covered?](https://codeforces.com/contest/1924/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1924/A%20-%20Did%20We%20Get%20Everything%20Covered%3F/solution.cpp) |
