@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 300 | 34 |
+| 301 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (67)
+- [Uncategorized](#uncategorized) (68)
 - [binary search](#binary-search) (23)
 - [bitmasks](#bitmasks) (17)
 - [brute force](#brute-force) (49)
@@ -136,6 +136,7 @@
 | 2278F | [Modulo and Counting](https://codeforces.com/contest/2278/problem/F) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2278/F%20-%20Modulo%20and%20Counting/solution.cpp) |
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.cpp) |
 | 2283B | [Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/B%20-%20Rhythmic%20String/solution.cpp) |
+| 2283C | [Big XOR](https://codeforces.com/contest/2283/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/C%20-%20Big%20XOR/solution.cpp) |
 | 103373B | [Aliquot Sum](https://codeforces.com/contest/103373/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/103373/B%20-%20Aliquot%20Sum/solution.cpp) |
 
 ### binary search
