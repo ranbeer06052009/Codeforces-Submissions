@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 301 | 34 |
+| 302 | 34 |
 
 ---
 
@@ -17,13 +17,13 @@
 - [Uncategorized](#uncategorized) (68)
 - [binary search](#binary-search) (23)
 - [bitmasks](#bitmasks) (17)
-- [brute force](#brute-force) (49)
+- [brute force](#brute-force) (50)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (18)
 - [communication](#communication) (1)
-- [constructive algorithms](#constructive-algorithms) (51)
+- [constructive algorithms](#constructive-algorithms) (52)
 - [data structures](#data-structures) (31)
-- [dfs and similar](#dfs-and-similar) (13)
+- [dfs and similar](#dfs-and-similar) (14)
 - [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (49)
 - [dsu](#dsu) (5)
@@ -44,7 +44,7 @@
 - [sortings](#sortings) (33)
 - [strings](#strings) (16)
 - [ternary search](#ternary-search) (2)
-- [trees](#trees) (8)
+- [trees](#trees) (9)
 - [two pointers](#two-pointers) (20)
 
 ---
@@ -242,6 +242,7 @@
 | 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
 | 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
+| 2283D | [Black, Gray and White](https://codeforces.com/contest/2283/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/D%20-%20Black%2C%20Gray%20and%20White/solution.cpp) |
 
 ### chinese remainder theorem
 
@@ -335,6 +336,7 @@
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.cpp) |
 | 2272B | [Frogs Jump](https://codeforces.com/contest/2272/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2272/B%20-%20Frogs%20Jump/solution.cpp) |
 | 2277B | [Sequence Decreasing](https://codeforces.com/contest/2277/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/B%20-%20Sequence%20Decreasing/solution.cpp) |
+| 2283D | [Black, Gray and White](https://codeforces.com/contest/2283/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/D%20-%20Black%2C%20Gray%20and%20White/solution.cpp) |
 
 ### data structures
 
@@ -389,6 +391,7 @@
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
+| 2283D | [Black, Gray and White](https://codeforces.com/contest/2283/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/D%20-%20Black%2C%20Gray%20and%20White/solution.cpp) |
 
 ### divide and conquer
 
@@ -958,6 +961,7 @@
 | 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
+| 2283D | [Black, Gray and White](https://codeforces.com/contest/2283/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/D%20-%20Black%2C%20Gray%20and%20White/solution.cpp) |
 
 ### two pointers
 
