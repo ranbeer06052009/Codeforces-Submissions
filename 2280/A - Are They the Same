@@ -1,38 +1,296 @@
-<h2><a href="https://codeforces.com/contest/2280/problem/A" target="_blank" rel="noopener noreferrer">2280A — Are They the Same?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | Unrated |
-| **Language** | C++23 (GCC 14-64, msys2) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2280A](https://codeforces.com/contest/2280/problem/A) |
-
-## Topics
-_No tags available_
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Are They the Same?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>  </p><p>You are given two integer arrays $$$a$$$ and $$$b$$$, each of length $$$n$$$. Furthermore, you are given an integer $$$k$$$.</p><p>You are allowed to perform any of the following operations <span class="tex-font-style-bf">zero or more times</span>: </p><ul> <li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := 2\cdot a[i] + k$$$. </li><li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := a[i] + 2$$$. </li><li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := a[i] - 2$$$. </li></ul><p>Determine if there is a way to apply these operations such that the resulting array $$$a$$$ is a permutation$$$^{\dagger}$$$ of $$$b$$$. Note that there are no restrictions on the values of the array during the process: elements may become negative or arbitrarily large.</p><p>$$$^{\dagger}$$$An array $$$a$$$ is a permutation of an array $$$b$$$ if $$$a$$$ consists of the elements of $$$b$$$ in arbitrary order. For example, $$$[4,2,3,4]$$$ is a permutation of $$$[3,2,4,4]$$$, while $$$[1,2,2]$$$ is not a permutation of $$$[1,2,3]$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 500$$$). The description of the test cases follows.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1\le n\le 100$$$, $$$0\le k\le 10^6$$$) — $$$n$$$ is the length of $$$a$$$ and $$$b$$$.</p><p>The second line of each testcase contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \le a_i \le 10^6$$$).</p><p>The third line of each testcase contains $$$n$$$ integers $$$b_1, b_2, \ldots, b_n$$$ ($$$0 \le b_i \le 10^6$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print "<span class="tex-font-style-tt">YES</span>" if it is possible to transform $$$a$$$ into a permutation of $$$b$$$, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p><p>You can output the answer in any case (upper or lower). For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will be recognized as positive responses.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004817915171775713" id="id0045319756009232404" class="input-output-copier">Copy</div></div><pre data-content="5
-3 4
-1 2 7
-5 3 8
-1 1
-0
-1
-1 1
-1
-0
-6 1
-0 0 0 0 0 0
-1 3 7 15 31 63
-2 1000000
-999999 1
-1000000 1
-" id="id004817915171775713"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 7</div><div class="test-example-line test-example-line-odd test-example-line-1">5 3 8</div><div class="test-example-line test-example-line-even test-example-line-2">1 1</div><div class="test-example-line test-example-line-even test-example-line-2">0</div><div class="test-example-line test-example-line-even test-example-line-2">1</div><div class="test-example-line test-example-line-odd test-example-line-3">1 1</div><div class="test-example-line test-example-line-odd test-example-line-3">1</div><div class="test-example-line test-example-line-odd test-example-line-3">0</div><div class="test-example-line test-example-line-even test-example-line-4">6 1</div><div class="test-example-line test-example-line-even test-example-line-4">0 0 0 0 0 0</div><div class="test-example-line test-example-line-even test-example-line-4">1 3 7 15 31 63</div><div class="test-example-line test-example-line-odd test-example-line-5">2 1000000</div><div class="test-example-line test-example-line-odd test-example-line-5">999999 1</div><div class="test-example-line test-example-line-odd test-example-line-5">1000000 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007024404174486301" id="id00973062542201554" class="input-output-copier">Copy</div></div><pre data-content="YES
-YES
-NO
-YES
-YES
-" id="id007024404174486301"><div class="test-example-line test-example-line-odd test-example-line-1">YES</div><div class="test-example-line test-example-line-even test-example-line-2">YES</div><div class="test-example-line test-example-line-odd test-example-line-3">NO</div><div class="test-example-line test-example-line-even test-example-line-4">YES</div><div class="test-example-line test-example-line-odd test-example-line-5">YES</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, consider applying the following operations: </p><ul> <li> Apply $$$a[1] := a[1] + 2$$$ </li><li> Apply $$$a[2] := 2 \cdot a[2] + k$$$ </li><li> Apply $$$a[3] := a[3] - 2$$$ </li></ul> As a result of these operations, $$$a$$$ becomes $$$[3, 8, 5]$$$, which is a permutation of $$$[5, 3, 8]$$$.<p>In the second test case, we can apply the operation $$$a[1] := 2\cdot a[1] + k$$$ to make $$$a = [1]$$$.</p><p>In the third test case, we can show that there is no way to make $$$a = [0]$$$.</p></div>
+#pragma GCC optimize("Ofast,unroll-loops")
+#include <bits/allocator.h>
+#pragma GCC target("avx2")
+#include <bits/stdc++.h>
+using namespace std;
+#define fastio() ios_base::sync_with_stdio(false); cin.tie(NULL);cout.tie(NULL)
+// Captain levi Ackerman:
+ /*"The only thing we're allowed to do is believe that we won't regret the choice we made."
+ "The world doesn’t care about your pain — only your will to rise again."
+ " Sometimme to find the way you must loose yourself in the grind"
+ " No matter what kind of wisdom dictates the option you should pick No one will be able to tell if it's right or wrong until you arrive at some sort of outcome"*/
+ 
+// Eren yeager:
+/*"If you win, you live. If you lose, you die. If you don't fight, you can't win! So Fight ! Just Fight!"
+"You'll Never Know. If You're Not The One Who's Continuing To Take That Path... Unless You Keep Moving Forward."*/
+ 
+// Commander Erwin Smith :
+/*"If you begin to regret, you’ll dull your future decisions and let others make your choices for you. Nobody can foretell the outcome. Each decision you make holds meaning only by affecting your next decision."*/
+ 
+ 
+/* ---------------- pbds (order statistics tree) ---------------- */
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+ 
+template <class T, class Cmp = std::less<T>>
+using ordered_set =
+    tree<T, null_type, Cmp, rb_tree_tag, tree_order_statistics_node_update>;
+ 
+template <class T, class Cmp = std::less_equal<T>>
+using ordered_multiset =
+    tree<T, null_type, Cmp, rb_tree_tag, tree_order_statistics_node_update>;
+ 
+/* ---------------- aliases ---------------- */
+using ll = long long;
+using ull = unsigned long long;
+using ld = long double;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi = vector<int>;
+using vll = vector<ll>;
+using vvi = vector<vi>;
+using vvll = vector<vll>;
+using vs = vector<string>;
+using vpii = vector<pii>;
+using vpll = vector<pll>;
+using mii = map<int, int>;
+using mll = map<ll, ll>;
+ 
+constexpr ll mod = 998244353;
+constexpr ll MOD = 1000000007;
+ 
+/* ---------------- handy macros & helpers ---------------- */
+#define all(x) begin(x), end(x)
+#define rall(x) rbegin(x), rend(x)
+#define ls(u) (u << 1)
+#define rs(u) (u << 1 | 1)
+#define rep(i, a, b) for (ll i = a; i <= b; i++)
+#define rrep(i, a, b) for (ll i = a; i >= b; i--)
+#define F first
+#define S second
+ 
+/* ---------------- Number Theory ---------------- */
+const int MAX = 200005;
+ll fact[MAX], invFact[MAX];
+ 
+ll power(ll base, ll exp) {
+    ll res = 1;
+    base %= MOD;
+    while (exp > 0) {
+        if (exp % 2 == 1) res = (res * base) % MOD;
+        base = (base * base) % MOD;
+        exp /= 2;
+    }
+    return res;
+}
+ll power(ll base, ll exp, ll mod) {
+    ll res = 1;
+    base %= mod;
+    while (exp > 0) {
+        if (exp % 2 == 1) res = (__int128)res * base % mod; // Using __int128 prevents overflow
+        base = (__int128)base * base % mod;
+        exp /= 2;
+    }
+    return res;
+}
+ll modInverse(ll n) {
+    return power(n, MOD - 2);
+}
+ 
+// Precomputes factorials in O(N)
+void precompute() {
+    fact[0] = 1;
+    invFact[0] = 1;
+    for (int i = 1; i < MAX; i++) {
+        fact[i] = (fact[i - 1] * i) % MOD;
+    }
+    invFact[MAX - 1] = modInverse(fact[MAX - 1]);
+    for (int i = MAX - 2; i >= 1; i--) {
+        invFact[i] = (invFact[i + 1] * (i + 1)) % MOD;
+    }
+}
+ 
+// O(1) combinations calculation
+ll nCr(int n, int r) {
+    if (r < 0 || r > n) return 0;
+    return fact[n] * invFact[r] % MOD * invFact[n - r] % MOD;
+}
+// 2. O(R log P) Method for massive N, small R, and prime P
+ll nCr_small(ll n, ll r, ll p) {
+    if (r > n || r < 0) return 0;
+    if (r == 0 || r == n) return 1;
+    if (r > n - r) r = n - r; // Optimization: nCr(n, r) == nCr(n, n-r)
+ 
+    ll num = 1, den = 1;
+    for (ll i = 0; i < r; ++i) {
+        num = (num * ((n - i) % p)) % p;
+        den = (den * ((i + 1) % p)) % p;
+    }
+    return (num * power(den, p - 2, p)) % p;
+}
+// 3. O(p + log_p(N)) Lucas Theorem Method for massive N, K and tiny prime P
+ll lucas_standard(ll n, ll k, ll p) {
+    if (k < 0 || k > n) return 0;
+    if (k == 0 || k == n) return 1;
+    
+    ll res = 1;
+    while (n > 0 || k > 0) {
+        ll ni = n % p;
+        ll ki = k % p;
+        
+        if (ki > ni) return 0; // Digit check optimization
+        
+        res = (res * nCr_small(ni, ki, p)) % p;
+        n /= p;
+        k /= p;
+    }
+    return res;
+}
+ll extGCD(ll a, ll b, ll &x, ll &y) {
+    if (b == 0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    ll x1, y1;
+    ll d = extGCD(b, a % b, x1, y1);
+    x = y1;
+    y = x1 - y1 * (a / b);
+    return d;
+}
+bool find_any_solution(ll a, ll b, ll c, ll &x0, ll &y0, ll &g) {
+    g= extGCD(abs(a), abs(b), x0, y0);
+    if (c%g!= 0) {
+        return false;
+    }
+ 
+    x0*=c/g;
+    y0*=c/g;
+    if(a<0)x0= -x0;
+    if(b<0)y0= -y0;
+    return true;
+}
+ 
+vll sieve(int n) {
+    vll primes;
+    vector<bool> isPrime(n + 1, true);
+    isPrime[0] = isPrime[1] = false;
+    for (int i = 2; i <= n; ++i) {
+        if (isPrime[i]) {
+            primes.push_back(i);
+            for (int j = i * 2; j <= n; j += i) isPrime[j] = false;
+        }
+    }
+    return primes;
+}
+ 
+vector<pair<ll, ll>> primeFactors(ll n) {
+    vector<pair<ll, ll>> factors;
+    for (ll i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            ll count = 0;
+            while (n % i == 0) {
+                n /= i;
+                count++;
+            }
+            factors.emplace_back(i, count);
+        }
+    }
+    if (n > 1) {
+        factors.emplace_back(n, 1);
+    }
+    return factors;
+}
+ 
+ll phi(ll n) {
+    ll result = n;
+    for (ll i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            while (n % i == 0) {
+                n /= i;
+            }
+            result -= result / i;
+        }
+    }
+    if (n > 1) {
+        result -= result / n;
+    }
+    return result;
+}
+void swap(ll &a, ll &b){
+    ll temp=a;
+    a=b;
+    b=temp;
+}
+ll gcd(ll a, ll b) {
+    while(b) { 
+        a %= b; 
+        swap(a, b); 
+    } 
+    return a; 
+}
+ 
+ll lcm(ll a, ll b) { 
+    if (a == 0 || b == 0) return 0;
+    return (a / gcd(a, b)) * b; 
+}
+ll crt(ll r1, ll m1, ll r2, ll m2){
+    ll x,y;
+    ll g=extGCD(m1,m2,x,y);
+    if((r2-r1)%g!=0)return -1;
+    ll m=m1/g*m2;
+    ll temp=r1+x*((r2-r1)/g)%(m2/g)*m1;
+    ll t=(temp%m+m)%m;
+    return t;
+} 
+// Computes Legendre's formula: number of times prime p divides x!
+ll multiplicityP(ll x, ll p){
+    ll count = 0;
+    while(x > 0){
+        count += x / p;
+        x /= p;
+    }
+    return count;
+}
+ 
+/* Bitwise */
+ll msb(ll n) { return n ? 63 - __builtin_clzll(n) : -1; }
+ 
+ll bitPos(ll val, ll pos) { return ((1ll << pos) & val) > 0; }
+ 
+/* ------------- main solve function ------------- */
+ 
+ 
+void solve(){
+    int n,k;
+    cin>>n>>k;
+    vll a(n),b(n);
+    int e1=0,od1=0,e2=0,od2=0;
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        if(a[i]&1)od1++;
+        else e1++;
+    }
+    for(int i=0;i<n;i++){
+        cin>>b[i];
+        if(b[i]&1)od2++;
+        else e2++;
+    }
+    if(e1==e2){
+        cout<<"YES";
+        return;
+    }
+    if(od1<od2){
+        if(k&1)cout<<"YES";
+        else cout<<"NO";
+    }else{
+        if(k&1)cout<<"NO";
+        else cout<<"YES";
+    }
+    return;
+}
+ 
+int main(){
+    fastio();
+    int tt = 1;
+    //pre();
+    // precompute();
+    cin >> tt;
+    while (tt--){
+        solve();
+        cout <<"
+";
+    }
+    return 0;
+}
