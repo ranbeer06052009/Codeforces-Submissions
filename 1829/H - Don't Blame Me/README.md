@@ -1,0 +1,23 @@
+<h2><a href="https://codeforces.com/contest/1829/problem/H" target="_blank" rel="noopener noreferrer">1829H — Don't Blame Me</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1700 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1829H](https://codeforces.com/contest/1829/problem/H) |
+
+## Topics
+`bitmasks` `combinatorics` `dp` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">H. Don't Blame Me</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Sadly, the problem setter couldn't think of an interesting story, thus he just asks you to solve the following problem.</p><p>Given an array $$$a$$$ consisting of $$$n$$$ positive integers, count the number of <span class="tex-font-style-bf">non-empty</span> subsequences for which the bitwise $$$\mathsf{AND}$$$ of the elements in the subsequence has exactly $$$k$$$ set bits in its binary representation. The answer may be large, so output it modulo $$$10^9+7$$$.</p><p>Recall that the subsequence of an array $$$a$$$ is a sequence that can be obtained from $$$a$$$ by removing some (possibly, zero) elements. For example, $$$[1, 2, 3]$$$, $$$[3]$$$, $$$[1, 3]$$$ are subsequences of $$$[1, 2, 3]$$$, but $$$[3, 2]$$$ and $$$[4, 5, 6]$$$ are not.</p><p>Note that $$$\mathsf{AND}$$$ represents the <a href="https://en.wikipedia.org/wiki/Bitwise_operation#AND">bitwise AND operation</a>.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^4$$$). The description of the test cases follows.</p><p>The first line of each test case consists of two integers $$$n$$$ and $$$k$$$ ($$$1 \leq n \leq 2 \cdot 10^5$$$, $$$0 \le k \le 6$$$) — the length of the array and the number of set bits that the bitwise $$$\mathsf{AND}$$$ the counted subsequences should have in their binary representation.</p><p>The second line of each test case consists of $$$n$$$ integers $$$a_i$$$ ($$$0 \leq a_i \leq 63$$$) — the array $$$a$$$.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases doesn't exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the number of subsequences that have exactly $$$k$$$ set bits in their bitwise $$$\mathsf{AND}$$$ value's binary representation. The answer may be large, so output it modulo $$$10^9+7$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id001407737894511355" id="id00742798591469195" class="input-output-copier">Copy</div></div><pre id="id001407737894511355"><div class="test-example-line test-example-line-even test-example-line-0">6</div><div class="test-example-line test-example-line-odd test-example-line-1">5 1</div><div class="test-example-line test-example-line-odd test-example-line-1">1 1 1 1 1</div><div class="test-example-line test-example-line-even test-example-line-2">4 0</div><div class="test-example-line test-example-line-even test-example-line-2">0 1 2 3</div><div class="test-example-line test-example-line-odd test-example-line-3">5 1</div><div class="test-example-line test-example-line-odd test-example-line-3">5 5 7 4 2</div><div class="test-example-line test-example-line-even test-example-line-4">1 2</div><div class="test-example-line test-example-line-even test-example-line-4">3</div><div class="test-example-line test-example-line-odd test-example-line-5">12 0</div><div class="test-example-line test-example-line-odd test-example-line-5">0 2 0 2 0 2 0 2 0 2 0 2</div><div class="test-example-line test-example-line-even test-example-line-6">10 6</div><div class="test-example-line test-example-line-even test-example-line-6">63 0 63 5 5 63 63 4 12 13</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009961636695887374" id="id0008515256063668919" class="input-output-copier">Copy</div></div><pre id="id009961636695887374">31
+10
+10
+1
+4032
+15
+</pre></div></div></div>
