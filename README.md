@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 313 | 34 |
+| 314 | 34 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [Uncategorized](#uncategorized) (73)
 - [binary search](#binary-search) (25)
 - [bitmasks](#bitmasks) (19)
-- [brute force](#brute-force) (51)
+- [brute force](#brute-force) (52)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (19)
 - [communication](#communication) (1)
@@ -25,14 +25,14 @@
 - [data structures](#data-structures) (34)
 - [dfs and similar](#dfs-and-similar) (15)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (53)
+- [dp](#dp) (54)
 - [dsu](#dsu) (5)
 - [flows](#flows) (1)
 - [games](#games) (8)
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (8)
-- [greedy](#greedy) (104)
+- [greedy](#greedy) (105)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (46)
 - [interactive](#interactive) (3)
@@ -210,6 +210,7 @@
 | 1285C | [Fadi and LCM](https://codeforces.com/contest/1285/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1285/C%20-%20Fadi%20and%20LCM/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
+| 1389B | [Array Walk](https://codeforces.com/contest/1389/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1389/B%20-%20Array%20Walk/solution.cpp) |
 | 1498C | [Planar Reflections](https://codeforces.com/contest/1498/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1498/C%20-%20Planar%20Reflections/solution.cpp) |
 | 1500B | [Two chandeliers](https://codeforces.com/contest/1500/problem/B) | 2200 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1500/B%20-%20Two%20chandeliers/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.cpp) |
@@ -439,6 +440,7 @@
 | 1288D | [Minimax Problem](https://codeforces.com/contest/1288/problem/D) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1288/D%20-%20Minimax%20Problem/solution.cpp) |
 | 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
+| 1389B | [Array Walk](https://codeforces.com/contest/1389/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1389/B%20-%20Array%20Walk/solution.cpp) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1420C1 | [Pokémon Army (easy version)](https://codeforces.com/contest/1420/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C1%20-%20Pok%C3%A9mon%20Army%20(easy%20version)/solution.cpp) |
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
@@ -561,6 +563,7 @@
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
 | 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
+| 1389B | [Array Walk](https://codeforces.com/contest/1389/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1389/B%20-%20Array%20Walk/solution.cpp) |
 | 1420C1 | [Pokémon Army (easy version)](https://codeforces.com/contest/1420/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C1%20-%20Pok%C3%A9mon%20Army%20(easy%20version)/solution.cpp) |
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
 | 1420E | [Battle Lemmings](https://codeforces.com/contest/1420/problem/E) | 2500 | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/1420/E%20-%20Battle%20Lemmings/solution.cpp) |
