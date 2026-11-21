@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 316 | 34 |
+| 317 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (73)
+- [Uncategorized](#uncategorized) (74)
 - [binary search](#binary-search) (25)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (53)
@@ -142,6 +142,7 @@
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.cpp) |
 | 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.cpp) |
 | 2284B | [Introduction to the Niche Internet](https://codeforces.com/contest/2284/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2284/B%20-%20Introduction%20to%20the%20Niche%20Internet/solution.cpp) |
+| 2288B1 | [Yukari Yakumo and the Boundary Stones (Easy Version)](https://codeforces.com/contest/2288/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2288/B1%20-%20Yukari%20Yakumo%20and%20the%20Boundary%20Stones%20(Easy%20Version)/solution.cpp) |
 | 103373B | [Aliquot Sum](https://codeforces.com/contest/103373/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/103373/B%20-%20Aliquot%20Sum/solution.cpp) |
 
 ### binary search
