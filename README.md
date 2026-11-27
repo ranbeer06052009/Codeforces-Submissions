@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 320 | 34 |
+| 321 | 34 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (20)
 - [communication](#communication) (1)
-- [constructive algorithms](#constructive-algorithms) (53)
+- [constructive algorithms](#constructive-algorithms) (54)
 - [data structures](#data-structures) (34)
 - [dfs and similar](#dfs-and-similar) (16)
 - [divide and conquer](#divide-and-conquer) (2)
@@ -32,7 +32,7 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (8)
-- [greedy](#greedy) (107)
+- [greedy](#greedy) (108)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (46)
 - [interactive](#interactive) (3)
@@ -41,7 +41,7 @@
 - [number theory](#number-theory) (51)
 - [probabilities](#probabilities) (4)
 - [shortest paths](#shortest-paths) (4)
-- [sortings](#sortings) (35)
+- [sortings](#sortings) (36)
 - [strings](#strings) (17)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (11)
@@ -356,6 +356,7 @@
 | 2272B | [Frogs Jump](https://codeforces.com/contest/2272/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2272/B%20-%20Frogs%20Jump/solution.cpp) |
 | 2277B | [Sequence Decreasing](https://codeforces.com/contest/2277/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/B%20-%20Sequence%20Decreasing/solution.cpp) |
 | 2283D | [Black, Gray and White](https://codeforces.com/contest/2283/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/D%20-%20Black%2C%20Gray%20and%20White/solution.cpp) |
+| 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 
 ### data structures
 
@@ -651,6 +652,7 @@
 | 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 | 2277B | [Sequence Decreasing](https://codeforces.com/contest/2277/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/B%20-%20Sequence%20Decreasing/solution.cpp) |
 | 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
+| 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 
 ### hashing
 
@@ -963,6 +965,7 @@
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2257E | [Busy Beaver](https://codeforces.com/contest/2257/problem/E) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/E%20-%20Busy%20Beaver/solution.cpp) |
+| 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 
 ### strings
 
