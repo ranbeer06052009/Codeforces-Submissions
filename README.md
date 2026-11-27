@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 325 | 34 |
+| 326 | 34 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (75)
+- [Uncategorized](#uncategorized) (76)
 - [binary search](#binary-search) (27)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (55)
@@ -144,6 +144,7 @@
 | 2284B | [Introduction to the Niche Internet](https://codeforces.com/contest/2284/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2284/B%20-%20Introduction%20to%20the%20Niche%20Internet/solution.cpp) |
 | 2288B1 | [Yukari Yakumo and the Boundary Stones (Easy Version)](https://codeforces.com/contest/2288/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2288/B1%20-%20Yukari%20Yakumo%20and%20the%20Boundary%20Stones%20(Easy%20Version)/solution.cpp) |
 | 2292A | [Picnic for Two](https://codeforces.com/contest/2292/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2292/A%20-%20Picnic%20for%20Two/solution.cpp) |
+| 2292B | [Grapefruit Juice](https://codeforces.com/contest/2292/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2292/B%20-%20Grapefruit%20Juice/solution.cpp) |
 | 103373B | [Aliquot Sum](https://codeforces.com/contest/103373/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/103373/B%20-%20Aliquot%20Sum/solution.cpp) |
 
 ### binary search
