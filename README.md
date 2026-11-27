@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 323 | 34 |
+| 324 | 34 |
 
 ---
 
@@ -15,9 +15,9 @@
 - [*special](#special) (6)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (74)
-- [binary search](#binary-search) (26)
+- [binary search](#binary-search) (27)
 - [bitmasks](#bitmasks) (20)
-- [brute force](#brute-force) (54)
+- [brute force](#brute-force) (55)
 - [chinese remainder theorem](#chinese-remainder-theorem) (3)
 - [combinatorics](#combinatorics) (20)
 - [communication](#communication) (1)
@@ -36,7 +36,7 @@
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (47)
 - [interactive](#interactive) (3)
-- [math](#math) (120)
+- [math](#math) (121)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (51)
 - [probabilities](#probabilities) (4)
@@ -175,6 +175,7 @@
 | 2257D | [Bermuda Rectangle](https://codeforces.com/contest/2257/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2257/D%20-%20Bermuda%20Rectangle/solution.cpp) |
 | 2261E | [What Does the Cow Say?](https://codeforces.com/contest/2261/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/E%20-%20What%20Does%20the%20Cow%20Say%3F/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
+| 2290G1 | [Lakeside Trail (Easy Version)](https://codeforces.com/contest/2290/problem/G1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2290/G1%20-%20Lakeside%20Trail%20(Easy%20Version)/solution.cpp) |
 
 ### bitmasks
 
@@ -259,6 +260,7 @@
 | 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 | 2283D | [Black, Gray and White](https://codeforces.com/contest/2283/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2283/D%20-%20Black%2C%20Gray%20and%20White/solution.cpp) |
+| 2290G1 | [Lakeside Trail (Easy Version)](https://codeforces.com/contest/2290/problem/G1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2290/G1%20-%20Lakeside%20Trail%20(Easy%20Version)/solution.cpp) |
 
 ### chinese remainder theorem
 
@@ -852,6 +854,7 @@
 | 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
 | 2261B | [What's the Capital of France?](https://codeforces.com/contest/2261/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2261/B%20-%20What's%20the%20Capital%20of%20France%3F/solution.cpp) |
 | 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2290/E%20-%20Avalanche/solution.cpp) |
+| 2290G1 | [Lakeside Trail (Easy Version)](https://codeforces.com/contest/2290/problem/G1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/ranbeer06052009/Codeforces-Submissions/blob/HEAD/2290/G1%20-%20Lakeside%20Trail%20(Easy%20Version)/solution.cpp) |
 
 ### matrices
 
